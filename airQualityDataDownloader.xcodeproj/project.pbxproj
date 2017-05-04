@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7876A4CF943040A64EEEE455 /* libPods-ledPanelDeamon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B363CD58DCE445C50683672E /* libPods-ledPanelDeamon.a */; };
 		B90FC2D01EA43A36008EAE97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2CF1EA43A36008EAE97 /* AppDelegate.m */; };
 		B90FC2D31EA43A36008EAE97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2D21EA43A36008EAE97 /* main.m */; };
 		B90FC2D61EA43A36008EAE97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2D51EA43A36008EAE97 /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		B90FC2DB1EA43A36008EAE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90FC2D91EA43A36008EAE97 /* Main.storyboard */; };
 		B90FC2E61EA43A36008EAE97 /* ledPanelDeamonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2E51EA43A36008EAE97 /* ledPanelDeamonTests.m */; };
 		B90FC2F11EA43A36008EAE97 /* ledPanelDeamonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2F01EA43A36008EAE97 /* ledPanelDeamonUITests.m */; };
+		C35B68A1FB5B11F2672BFB88 /* libPods-ledPanelDeamonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA443586E448B0A94FD6BA6D /* libPods-ledPanelDeamonUITests.a */; };
+		EC63A7C2CC917E0BE2B9DBEA /* libPods-ledPanelDeamonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BD0617D0440424F0EA73DD /* libPods-ledPanelDeamonTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B90FC2CB1EA43A36008EAE97 /* ledPanelDeamon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ledPanelDeamon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		661DDA271B35022DC751FAAB /* Pods-ledPanelDeamonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamonUITests/Pods-ledPanelDeamonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A2F8C841F9C674D6E14710D /* Pods-ledPanelDeamonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamonTests/Pods-ledPanelDeamonTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE5C603A2FED9A725B571B2D /* Pods-ledPanelDeamon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamon/Pods-ledPanelDeamon.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C8C2D765BE6416ACA25F00 /* Pods-ledPanelDeamon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamon.release.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamon/Pods-ledPanelDeamon.release.xcconfig"; sourceTree = "<group>"; };
+		B363CD58DCE445C50683672E /* libPods-ledPanelDeamon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ledPanelDeamon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90FC2CB1EA43A36008EAE97 /* airQualityDataDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airQualityDataDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90FC2CE1EA43A36008EAE97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B90FC2CF1EA43A36008EAE97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B90FC2D21EA43A36008EAE97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,12 +51,16 @@
 		B90FC2D71EA43A36008EAE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B90FC2DA1EA43A36008EAE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B90FC2DC1EA43A36008EAE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B90FC2E11EA43A36008EAE97 /* ledPanelDeamonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ledPanelDeamonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90FC2E11EA43A36008EAE97 /* airQualityDataDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airQualityDataDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90FC2E51EA43A36008EAE97 /* ledPanelDeamonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ledPanelDeamonTests.m; sourceTree = "<group>"; };
 		B90FC2E71EA43A36008EAE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B90FC2EC1EA43A36008EAE97 /* ledPanelDeamonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ledPanelDeamonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90FC2EC1EA43A36008EAE97 /* airQualityDataDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airQualityDataDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90FC2F01EA43A36008EAE97 /* ledPanelDeamonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ledPanelDeamonUITests.m; sourceTree = "<group>"; };
 		B90FC2F21EA43A36008EAE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA443586E448B0A94FD6BA6D /* libPods-ledPanelDeamonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ledPanelDeamonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6BD0617D0440424F0EA73DD /* libPods-ledPanelDeamonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ledPanelDeamonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7325B85D040A26F60350C3B /* Pods-ledPanelDeamonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamonTests/Pods-ledPanelDeamonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC88A45A3DEC635C632A5E12 /* Pods-ledPanelDeamonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamonUITests/Pods-ledPanelDeamonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7876A4CF943040A64EEEE455 /* libPods-ledPanelDeamon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC63A7C2CC917E0BE2B9DBEA /* libPods-ledPanelDeamonTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35B68A1FB5B11F2672BFB88 /* libPods-ledPanelDeamonUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82E3AD55A57C8A2FF0A91808 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C603A2FED9A725B571B2D /* Pods-ledPanelDeamon.debug.xcconfig */,
+				B1C8C2D765BE6416ACA25F00 /* Pods-ledPanelDeamon.release.xcconfig */,
+				E7325B85D040A26F60350C3B /* Pods-ledPanelDeamonTests.debug.xcconfig */,
+				7A2F8C841F9C674D6E14710D /* Pods-ledPanelDeamonTests.release.xcconfig */,
+				FC88A45A3DEC635C632A5E12 /* Pods-ledPanelDeamonUITests.debug.xcconfig */,
+				661DDA271B35022DC751FAAB /* Pods-ledPanelDeamonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B90FC2C21EA43A36008EAE97 = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +111,17 @@
 				B90FC2E41EA43A36008EAE97 /* ledPanelDeamonTests */,
 				B90FC2EF1EA43A36008EAE97 /* ledPanelDeamonUITests */,
 				B90FC2CC1EA43A36008EAE97 /* Products */,
+				82E3AD55A57C8A2FF0A91808 /* Pods */,
+				BC063C7BD6EF496B9D02810D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B90FC2CC1EA43A36008EAE97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B90FC2CB1EA43A36008EAE97 /* ledPanelDeamon.app */,
-				B90FC2E11EA43A36008EAE97 /* ledPanelDeamonTests.xctest */,
-				B90FC2EC1EA43A36008EAE97 /* ledPanelDeamonUITests.xctest */,
+				B90FC2CB1EA43A36008EAE97 /* airQualityDataDownloader.app */,
+				B90FC2E11EA43A36008EAE97 /* airQualityDataDownloaderTests.xctest */,
+				B90FC2EC1EA43A36008EAE97 /* airQualityDataDownloaderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,60 +167,79 @@
 			path = ledPanelDeamonUITests;
 			sourceTree = "<group>";
 		};
+		BC063C7BD6EF496B9D02810D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B363CD58DCE445C50683672E /* libPods-ledPanelDeamon.a */,
+				D6BD0617D0440424F0EA73DD /* libPods-ledPanelDeamonTests.a */,
+				BA443586E448B0A94FD6BA6D /* libPods-ledPanelDeamonUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B90FC2CA1EA43A36008EAE97 /* ledPanelDeamon */ = {
+		B90FC2CA1EA43A36008EAE97 /* airQualityDataDownloader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B90FC2F51EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "ledPanelDeamon" */;
+			buildConfigurationList = B90FC2F51EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "airQualityDataDownloader" */;
 			buildPhases = (
+				04E78A39F739A6F02CBA3274 /* [CP] Check Pods Manifest.lock */,
 				B90FC2C71EA43A36008EAE97 /* Sources */,
 				B90FC2C81EA43A36008EAE97 /* Frameworks */,
 				B90FC2C91EA43A36008EAE97 /* Resources */,
+				DE8E89F7A0965071F2815897 /* [CP] Embed Pods Frameworks */,
+				D73051915C4548D612B17919 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ledPanelDeamon;
+			name = airQualityDataDownloader;
 			productName = ledPanelDeamon;
-			productReference = B90FC2CB1EA43A36008EAE97 /* ledPanelDeamon.app */;
+			productReference = B90FC2CB1EA43A36008EAE97 /* airQualityDataDownloader.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B90FC2E01EA43A36008EAE97 /* ledPanelDeamonTests */ = {
+		B90FC2E01EA43A36008EAE97 /* airQualityDataDownloaderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B90FC2F81EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "ledPanelDeamonTests" */;
+			buildConfigurationList = B90FC2F81EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "airQualityDataDownloaderTests" */;
 			buildPhases = (
+				A0D523CADA115B31F66003E5 /* [CP] Check Pods Manifest.lock */,
 				B90FC2DD1EA43A36008EAE97 /* Sources */,
 				B90FC2DE1EA43A36008EAE97 /* Frameworks */,
 				B90FC2DF1EA43A36008EAE97 /* Resources */,
+				A63186AD65D89513F8037EA4 /* [CP] Embed Pods Frameworks */,
+				9F2791E5CBA5FE7601E3C867 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				B90FC2E31EA43A36008EAE97 /* PBXTargetDependency */,
 			);
-			name = ledPanelDeamonTests;
+			name = airQualityDataDownloaderTests;
 			productName = ledPanelDeamonTests;
-			productReference = B90FC2E11EA43A36008EAE97 /* ledPanelDeamonTests.xctest */;
+			productReference = B90FC2E11EA43A36008EAE97 /* airQualityDataDownloaderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B90FC2EB1EA43A36008EAE97 /* ledPanelDeamonUITests */ = {
+		B90FC2EB1EA43A36008EAE97 /* airQualityDataDownloaderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B90FC2FB1EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "ledPanelDeamonUITests" */;
+			buildConfigurationList = B90FC2FB1EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "airQualityDataDownloaderUITests" */;
 			buildPhases = (
+				8489BD0CEAC1F5E12CFF7646 /* [CP] Check Pods Manifest.lock */,
 				B90FC2E81EA43A36008EAE97 /* Sources */,
 				B90FC2E91EA43A36008EAE97 /* Frameworks */,
 				B90FC2EA1EA43A36008EAE97 /* Resources */,
+				095E3D6C692C552F8B3A36AF /* [CP] Embed Pods Frameworks */,
+				041F0269BF0BB86CE27DD84F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				B90FC2EE1EA43A36008EAE97 /* PBXTargetDependency */,
 			);
-			name = ledPanelDeamonUITests;
+			name = airQualityDataDownloaderUITests;
 			productName = ledPanelDeamonUITests;
-			productReference = B90FC2EC1EA43A36008EAE97 /* ledPanelDeamonUITests.xctest */;
+			productReference = B90FC2EC1EA43A36008EAE97 /* airQualityDataDownloaderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +270,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B90FC2C61EA43A36008EAE97 /* Build configuration list for PBXProject "ledPanelDeamon" */;
+			buildConfigurationList = B90FC2C61EA43A36008EAE97 /* Build configuration list for PBXProject "airQualityDataDownloader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +283,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B90FC2CA1EA43A36008EAE97 /* ledPanelDeamon */,
-				B90FC2E01EA43A36008EAE97 /* ledPanelDeamonTests */,
-				B90FC2EB1EA43A36008EAE97 /* ledPanelDeamonUITests */,
+				B90FC2CA1EA43A36008EAE97 /* airQualityDataDownloader */,
+				B90FC2E01EA43A36008EAE97 /* airQualityDataDownloaderTests */,
+				B90FC2EB1EA43A36008EAE97 /* airQualityDataDownloaderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,6 +315,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		041F0269BF0BB86CE27DD84F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ledPanelDeamonUITests/Pods-ledPanelDeamonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		04E78A39F739A6F02CBA3274 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		095E3D6C692C552F8B3A36AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ledPanelDeamonUITests/Pods-ledPanelDeamonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8489BD0CEAC1F5E12CFF7646 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F2791E5CBA5FE7601E3C867 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ledPanelDeamonTests/Pods-ledPanelDeamonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D523CADA115B31F66003E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A63186AD65D89513F8037EA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ledPanelDeamonTests/Pods-ledPanelDeamonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D73051915C4548D612B17919 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ledPanelDeamon/Pods-ledPanelDeamon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE8E89F7A0965071F2815897 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ledPanelDeamon/Pods-ledPanelDeamon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B90FC2C71EA43A36008EAE97 /* Sources */ = {
@@ -299,12 +486,12 @@
 /* Begin PBXTargetDependency section */
 		B90FC2E31EA43A36008EAE97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B90FC2CA1EA43A36008EAE97 /* ledPanelDeamon */;
+			target = B90FC2CA1EA43A36008EAE97 /* airQualityDataDownloader */;
 			targetProxy = B90FC2E21EA43A36008EAE97 /* PBXContainerItemProxy */;
 		};
 		B90FC2EE1EA43A36008EAE97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B90FC2CA1EA43A36008EAE97 /* ledPanelDeamon */;
+			target = B90FC2CA1EA43A36008EAE97 /* airQualityDataDownloader */;
 			targetProxy = B90FC2ED1EA43A36008EAE97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -410,32 +597,35 @@
 		};
 		B90FC2F61EA43A36008EAE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5C603A2FED9A725B571B2D /* Pods-ledPanelDeamon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5AQYUURPL7;
 				INFOPLIST_FILE = ledPanelDeamon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.ledPanelDeamon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.airQualityDownloader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		B90FC2F71EA43A36008EAE97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C8C2D765BE6416ACA25F00 /* Pods-ledPanelDeamon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5AQYUURPL7;
 				INFOPLIST_FILE = ledPanelDeamon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.ledPanelDeamon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.airQualityDownloader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		B90FC2F91EA43A36008EAE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7325B85D040A26F60350C3B /* Pods-ledPanelDeamonTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -444,12 +634,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.ledPanelDeamonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ledPanelDeamon.app/Contents/MacOS/ledPanelDeamon";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airQualityDataDownloader.app/Contents/MacOS/airQualityDataDownloader";
 			};
 			name = Debug;
 		};
 		B90FC2FA1EA43A36008EAE97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2F8C841F9C674D6E14710D /* Pods-ledPanelDeamonTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -458,12 +649,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.ledPanelDeamonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ledPanelDeamon.app/Contents/MacOS/ledPanelDeamon";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airQualityDataDownloader.app/Contents/MacOS/airQualityDataDownloader";
 			};
 			name = Release;
 		};
 		B90FC2FC1EA43A36008EAE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC88A45A3DEC635C632A5E12 /* Pods-ledPanelDeamonUITests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5AQYUURPL7;
@@ -477,6 +669,7 @@
 		};
 		B90FC2FD1EA43A36008EAE97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661DDA271B35022DC751FAAB /* Pods-ledPanelDeamonUITests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5AQYUURPL7;
@@ -491,7 +684,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B90FC2C61EA43A36008EAE97 /* Build configuration list for PBXProject "ledPanelDeamon" */ = {
+		B90FC2C61EA43A36008EAE97 /* Build configuration list for PBXProject "airQualityDataDownloader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90FC2F31EA43A36008EAE97 /* Debug */,
@@ -500,29 +693,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B90FC2F51EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "ledPanelDeamon" */ = {
+		B90FC2F51EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "airQualityDataDownloader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90FC2F61EA43A36008EAE97 /* Debug */,
 				B90FC2F71EA43A36008EAE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B90FC2F81EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "ledPanelDeamonTests" */ = {
+		B90FC2F81EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "airQualityDataDownloaderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90FC2F91EA43A36008EAE97 /* Debug */,
 				B90FC2FA1EA43A36008EAE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B90FC2FB1EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "ledPanelDeamonUITests" */ = {
+		B90FC2FB1EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "airQualityDataDownloaderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90FC2FC1EA43A36008EAE97 /* Debug */,
 				B90FC2FD1EA43A36008EAE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

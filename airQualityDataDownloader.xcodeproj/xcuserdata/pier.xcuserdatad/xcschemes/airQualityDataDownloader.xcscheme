@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B90FC2CA1EA43A36008EAE97"
-               BuildableName = "ledPanelDeamon.app"
-               BlueprintName = "ledPanelDeamon"
-               ReferencedContainer = "container:ledPanelDeamon.xcodeproj">
+               BuildableName = "airQualityDataDownloader.app"
+               BlueprintName = "airQualityDataDownloader"
+               ReferencedContainer = "container:airQualityDataDownloader.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B90FC2E01EA43A36008EAE97"
-               BuildableName = "ledPanelDeamonTests.xctest"
-               BlueprintName = "ledPanelDeamonTests"
-               ReferencedContainer = "container:ledPanelDeamon.xcodeproj">
+               BuildableName = "airQualityDataDownloaderTests.xctest"
+               BlueprintName = "airQualityDataDownloaderTests"
+               ReferencedContainer = "container:airQualityDataDownloader.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B90FC2EB1EA43A36008EAE97"
-               BuildableName = "ledPanelDeamonUITests.xctest"
-               BlueprintName = "ledPanelDeamonUITests"
-               ReferencedContainer = "container:ledPanelDeamon.xcodeproj">
+               BuildableName = "airQualityDataDownloaderUITests.xctest"
+               BlueprintName = "airQualityDataDownloaderUITests"
+               ReferencedContainer = "container:airQualityDataDownloader.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B90FC2CA1EA43A36008EAE97"
-            BuildableName = "ledPanelDeamon.app"
-            BlueprintName = "ledPanelDeamon"
-            ReferencedContainer = "container:ledPanelDeamon.xcodeproj">
+            BuildableName = "airQualityDataDownloader.app"
+            BlueprintName = "airQualityDataDownloader"
+            ReferencedContainer = "container:airQualityDataDownloader.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B90FC2CA1EA43A36008EAE97"
-            BuildableName = "ledPanelDeamon.app"
-            BlueprintName = "ledPanelDeamon"
-            ReferencedContainer = "container:ledPanelDeamon.xcodeproj">
+            BuildableName = "airQualityDataDownloader.app"
+            BlueprintName = "airQualityDataDownloader"
+            ReferencedContainer = "container:airQualityDataDownloader.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B90FC2CA1EA43A36008EAE97"
-            BuildableName = "ledPanelDeamon.app"
-            BlueprintName = "ledPanelDeamon"
-            ReferencedContainer = "container:ledPanelDeamon.xcodeproj">
+            BuildableName = "airQualityDataDownloader.app"
+            BlueprintName = "airQualityDataDownloader"
+            ReferencedContainer = "container:airQualityDataDownloader.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

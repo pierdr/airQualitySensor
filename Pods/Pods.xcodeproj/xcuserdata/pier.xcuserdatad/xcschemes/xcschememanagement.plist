@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ORSSerialPort.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>PocketSocket.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-ledPanelDeamon.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-ledPanelDeamonTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-ledPanelDeamonUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>20400FF3DA372102C2D5F15FA6DDA7C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>38893AB56435BF7D58685C38F61A6B03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7419BD1F6208928B0411C0ECDDB24B91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CCC9EA6D18D87C462E57562821A5970A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D51A78E2BFE0B40C65CA4A3F3E760B27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

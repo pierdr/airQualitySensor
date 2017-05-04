@@ -1,0 +1,23 @@
+PODS:
+  - ORSSerialPort (2.0.2)
+  - PocketSocket (1.0.1):
+    - PocketSocket/Client (= 1.0.1)
+    - PocketSocket/Core (= 1.0.1)
+    - PocketSocket/Server (= 1.0.1)
+  - PocketSocket/Client (1.0.1):
+    - PocketSocket/Core
+  - PocketSocket/Core (1.0.1)
+  - PocketSocket/Server (1.0.1):
+    - PocketSocket/Client
+
+DEPENDENCIES:
+  - ORSSerialPort
+  - PocketSocket
+
+SPEC CHECKSUMS:
+  ORSSerialPort: 3fb0d2404b7e8b99c4f1aa7e7314d63030cd54c3
+  PocketSocket: 9c6867d66fb4f962af96b9b07f4b45bb561b2c2a
+
+PODFILE CHECKSUM: 0d11a44f8270196a1ee74eecfed81451a3b8cd28
+
+COCOAPODS: 1.2.0

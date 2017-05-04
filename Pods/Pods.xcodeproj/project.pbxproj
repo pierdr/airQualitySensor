@@ -1,0 +1,998 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B5A5756413E3D5125B6673CEB21AEF2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93F203030ACECCE1CC9D378462D301C /* IOKit.framework */; };
+		0CECD99BB1B98CA5917728A56813E4A8 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A59C4D9728EC2B4E5675C1B6113E819 /* ORSSerialBuffer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1581CD5B254BCF8A339D196B9AE6F1F7 /* PSWebSocketInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD1A7E49687313C8D3EA1C463B44FB5 /* PSWebSocketInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16835B96FE7E7CFF51D10D2CA59C4F19 /* PSWebSocketDeflater.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D143B7B960B4DCE155DEC32F51C8BE6 /* PSWebSocketDeflater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		20294F48A3160F2288293885C50DF376 /* PSWebSocketUTF8Decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E52780E82D35DC0F507082F73682FA /* PSWebSocketUTF8Decoder.m */; };
+		25289A72B532FC36C74950FBF33E441C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95C832AA1F1806A9477C7BFDC1ECEA6 /* Security.framework */; };
+		27262571A2188684A395F57C3470C63B /* PSWebSocketUTF8Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B3C63AF99F72DA0AFEF8DECD0D6726 /* PSWebSocketUTF8Decoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		273F6249FF51FDE53897A230A2438BF4 /* PSWebSocketInflater.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D83B830FFF344316A2B530AFFC3D274 /* PSWebSocketInflater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2FA84B764E96E9360A7E7F316C60A763 /* PSWebSocketDeflater.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCFD3851C402A35B01EB4FFBA618CF /* PSWebSocketDeflater.m */; };
+		353B2007B898B24E4AF549938C995792 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */; };
+		39A2D619FD64D692DF67F4851B1F772B /* PSWebSocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A561A212D0B0DF0B596B26ABD4F7B01E /* PSWebSocketServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		410D223B99B98C4A8A8CBF628163D1D4 /* PSWebSocketBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F50583709160AA8304B7956E225108C9 /* PSWebSocketBuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4508CCC39AC985EC513F9D561B89FAB2 /* ORSSerialPort-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506DE0D73F1654D363293E1E929839A /* ORSSerialPort-dummy.m */; };
+		4DD84F3920D7CA6A3D2678347514181C /* PocketSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6475A718B0EA120C1AC710216319F7 /* PocketSocket-dummy.m */; };
+		4E8CD5ED1358689144B3C30D7CDC0851 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D187D406F096C0D49EEA3D87524BDD5E /* CFNetwork.framework */; };
+		519D24D37AAD79A0ABBCEE2256EDF19E /* PSWebSocketBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD61AB2CB930B8A09B0CDDB08511F31 /* PSWebSocketBuffer.m */; };
+		524C506A9A8F3708084ED387619A8351 /* PSWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9C596335EE6445BE69EB11CE441234 /* PSWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		540C6ED6C8A3E397AE4E5EACBFDC845C /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5982ABCCD0F564352A6AAF1B08118AAD /* ORSSerialPacketDescriptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		576D166920A80DDD0982ACECB22F8264 /* Pods-ledPanelDeamonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 646221C314F5633B5F75A4B0D02C567E /* Pods-ledPanelDeamonTests-dummy.m */; };
+		6A49D3AD21569EF7305CA08E8EDB8CC1 /* PSWebSocketDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7389C6F8F396849AA3095DFA595EBB55 /* PSWebSocketDriver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7189A53860E8DB6490A25795A769355F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */; };
+		78CAD0459573181A2FA4BCA7206C3EFA /* Pods-ledPanelDeamon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB86A2E01B4777B2C89A5FFBD91629DD /* Pods-ledPanelDeamon-dummy.m */; };
+		80CB191A6B0938BE94CB167AD448EA84 /* PSWebSocketNetworkThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B55E09B72AD23010E028E95CCBC569 /* PSWebSocketNetworkThread.m */; };
+		89DF61BA984DC98529ABF2E5ACBC70D8 /* PSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DE945CD59E42D82D056017287F802611 /* PSWebSocket.m */; };
+		89E4EA5CF0EE2A825A4F705A9E4BF6B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */; };
+		912DA540CED5BEF18EF40F9A0FEA760F /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70311500EA22E7549456DF5D7CEA7512 /* ORSSerialPortManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		94A793235E721EA076B55A067F60A25C /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDA0193023A32D4CE10EA182DE3DFB /* ORSSerialRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		96D5146E7A558F2AA71CF2C4E6FE3A3A /* PSWebSocketTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 747962508A3F233655AC6C8C3E0EF913 /* PSWebSocketTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9732D315E08B03892760637E9A6805EA /* PSWebSocketInflater.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AA9DCCF5B0DBFB0EBCB290B09F31ED /* PSWebSocketInflater.m */; };
+		9D7FB4C9F0273F308127342455571D0C /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 006FF73843FA3553471690FA961C70A2 /* ORSSerialPort.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A2C2EA76CA86DD08F1AAA386ADC49106 /* ORSSerialPacketDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5DC81FD696EA6A3885011C39DA44FA /* ORSSerialPacketDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFD0F8FD93CAEE149FE37D354567584 /* ORSSerialRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B485D91B817D0FF90720B3CAB4CE4C94 /* ORSSerialRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B536693F9F7677176A13674B0F9BD7A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061D675E652C198EEE5EC0DF4458FEDD /* Foundation.framework */; };
+		BB2D391989CD2490730D04E704270822 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */; };
+		BD29A9C9AAA5480C2F0E9FA47347FF1D /* ORSSerialPortManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C55D1AB3F7442E6B7DF088F8E8C395B8 /* ORSSerialPortManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94255D948AC6BF92648FF22A0C3C873 /* PSWebSocketNetworkThread.h in Headers */ = {isa = PBXBuildFile; fileRef = B72B2B8BB66B5AEA3EB9D08F95EECF05 /* PSWebSocketNetworkThread.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E1A2389B3FA4E093859DF2C2268053DD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */; };
+		E4EDB920A855305CDFF0282850983BBE /* PSWebSocketDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = B7275CA422CEE495E19D5CE5DD162B45 /* PSWebSocketDriver.m */; };
+		EA1195D10687AF1D3FBD9C4154BF1512 /* Pods-ledPanelDeamonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3977EF7BA894F903DEB0015085168B /* Pods-ledPanelDeamonUITests-dummy.m */; };
+		EA7957222A49376CFE5EC3943D1A457F /* ORSSerialBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA3CC33573C7F5F10056CD748ECF0B2 /* ORSSerialBuffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		ECA1818FCF07425028236FFDA2C1E60F /* ORSSerialPort.h in Headers */ = {isa = PBXBuildFile; fileRef = A1DA2C11B3D4AF5A47A1F21CA679FD40 /* ORSSerialPort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5CCA322F7D07BFC7666BDC9277015BC /* PSWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F89AFA73D57ABAE1A63FA9C1701E0BD3 /* PSWebSocketServer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22DFDDEED6E360370F2F77C5CA3E0438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20400FF3DA372102C2D5F15FA6DDA7C1;
+			remoteInfo = PocketSocket;
+		};
+		262B2C59043D3852E20380133C20D725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7419BD1F6208928B0411C0ECDDB24B91;
+			remoteInfo = ORSSerialPort;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006FF73843FA3553471690FA961C70A2 /* ORSSerialPort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPort.m; path = Source/ORSSerialPort.m; sourceTree = "<group>"; };
+		061D675E652C198EEE5EC0DF4458FEDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		06D3F64867BCF69FC587DDFF1EC9DAE1 /* Pods-ledPanelDeamon-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ledPanelDeamon-resources.sh"; sourceTree = "<group>"; };
+		0D143B7B960B4DCE155DEC32F51C8BE6 /* PSWebSocketDeflater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketDeflater.h; path = PocketSocket/PSWebSocketDeflater.h; sourceTree = "<group>"; };
+		0DFCFD3851C402A35B01EB4FFBA618CF /* PSWebSocketDeflater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketDeflater.m; path = PocketSocket/PSWebSocketDeflater.m; sourceTree = "<group>"; };
+		1506DE0D73F1654D363293E1E929839A /* ORSSerialPort-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORSSerialPort-dummy.m"; sourceTree = "<group>"; };
+		15CE8DA9C9158CD5E2C05A6DEA84C0B1 /* ORSSerialPort.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORSSerialPort.xcconfig; sourceTree = "<group>"; };
+		16EDA0193023A32D4CE10EA182DE3DFB /* ORSSerialRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialRequest.m; path = Source/ORSSerialRequest.m; sourceTree = "<group>"; };
+		185AC02035EA3E076676592427F2D293 /* Pods-ledPanelDeamonTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ledPanelDeamonTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28DB180F29363CEBC37779C60F998BE3 /* Pods-ledPanelDeamonTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ledPanelDeamonTests-resources.sh"; sourceTree = "<group>"; };
+		32C9EB504001E491F697777F07CF5C45 /* libPods-ledPanelDeamonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ledPanelDeamonUITests.a"; path = "libPods-ledPanelDeamonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE954E09E4C7B5DBF762E49B9EFC30E /* PocketSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PocketSocket-prefix.pch"; sourceTree = "<group>"; };
+		43E988911CDD26B34799D2C62DA66D97 /* libORSSerialPort.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libORSSerialPort.a; path = libORSSerialPort.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F5184FE471F3D529E979748E282EE2 /* PocketSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PocketSocket.xcconfig; sourceTree = "<group>"; };
+		4D83B830FFF344316A2B530AFFC3D274 /* PSWebSocketInflater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketInflater.h; path = PocketSocket/PSWebSocketInflater.h; sourceTree = "<group>"; };
+		508AB77414976B4347BA7DA72003ADF4 /* Pods-ledPanelDeamonUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ledPanelDeamonUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5875C51A52567C41949ADB5CBD23813C /* libPods-ledPanelDeamonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ledPanelDeamonTests.a"; path = "libPods-ledPanelDeamonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5982ABCCD0F564352A6AAF1B08118AAD /* ORSSerialPacketDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPacketDescriptor.m; path = Source/ORSSerialPacketDescriptor.m; sourceTree = "<group>"; };
+		5DD1A7E49687313C8D3EA1C463B44FB5 /* PSWebSocketInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketInternal.h; path = PocketSocket/PSWebSocketInternal.h; sourceTree = "<group>"; };
+		5DF63DDFA740E9F31F079764A7F6BC07 /* ORSSerialPort-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORSSerialPort-prefix.pch"; sourceTree = "<group>"; };
+		646221C314F5633B5F75A4B0D02C567E /* Pods-ledPanelDeamonTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ledPanelDeamonTests-dummy.m"; sourceTree = "<group>"; };
+		6BAFD0166E164D900790CF4DEBB5927B /* Pods-ledPanelDeamonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ledPanelDeamonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		70311500EA22E7549456DF5D7CEA7512 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPortManager.m; path = Source/ORSSerialPortManager.m; sourceTree = "<group>"; };
+		7389C6F8F396849AA3095DFA595EBB55 /* PSWebSocketDriver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketDriver.h; path = PocketSocket/PSWebSocketDriver.h; sourceTree = "<group>"; };
+		747962508A3F233655AC6C8C3E0EF913 /* PSWebSocketTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketTypes.h; path = PocketSocket/PSWebSocketTypes.h; sourceTree = "<group>"; };
+		78F839B86501F1A54294110BFDDB0C4A /* libPocketSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPocketSocket.a; path = libPocketSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9C596335EE6445BE69EB11CE441234 /* PSWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocket.h; path = PocketSocket/PSWebSocket.h; sourceTree = "<group>"; };
+		81B55E09B72AD23010E028E95CCBC569 /* PSWebSocketNetworkThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketNetworkThread.m; path = PocketSocket/PSWebSocketNetworkThread.m; sourceTree = "<group>"; };
+		82F54EFCE358C7F40685AA0894E62A38 /* Pods-ledPanelDeamonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ledPanelDeamonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84153332247035A57A30FD2745EE35A8 /* Pods-ledPanelDeamonTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ledPanelDeamonTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		841F04066B79AA5167F5B75918096FE3 /* Pods-ledPanelDeamon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ledPanelDeamon.release.xcconfig"; sourceTree = "<group>"; };
+		8B7C7EAA706538F95937E4002A50E90D /* Pods-ledPanelDeamon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ledPanelDeamon-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D393BC62F749E98F004935047A58315 /* Pods-ledPanelDeamonTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ledPanelDeamonTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A59C4D9728EC2B4E5675C1B6113E819 /* ORSSerialBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialBuffer.m; path = Source/ORSSerialBuffer.m; sourceTree = "<group>"; };
+		9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		9D6475A718B0EA120C1AC710216319F7 /* PocketSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PocketSocket-dummy.m"; sourceTree = "<group>"; };
+		A0AC35979012D13BADE47A32782F14F4 /* Pods-ledPanelDeamon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ledPanelDeamon-acknowledgements.plist"; sourceTree = "<group>"; };
+		A1DA2C11B3D4AF5A47A1F21CA679FD40 /* ORSSerialPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPort.h; path = Source/ORSSerialPort.h; sourceTree = "<group>"; };
+		A561A212D0B0DF0B596B26ABD4F7B01E /* PSWebSocketServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketServer.h; path = PocketSocket/PSWebSocketServer.h; sourceTree = "<group>"; };
+		A95C832AA1F1806A9477C7BFDC1ECEA6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		AAD61AB2CB930B8A09B0CDDB08511F31 /* PSWebSocketBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketBuffer.m; path = PocketSocket/PSWebSocketBuffer.m; sourceTree = "<group>"; };
+		AB55548207E74B2F0FB3D56680A78DE0 /* Pods-ledPanelDeamonUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ledPanelDeamonUITests-frameworks.sh"; sourceTree = "<group>"; };
+		ABB1D76D68796943EF8F2B3E2B72D2A4 /* Pods-ledPanelDeamonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ledPanelDeamonTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC3977EF7BA894F903DEB0015085168B /* Pods-ledPanelDeamonUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ledPanelDeamonUITests-dummy.m"; sourceTree = "<group>"; };
+		B485D91B817D0FF90720B3CAB4CE4C94 /* ORSSerialRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialRequest.h; path = Source/ORSSerialRequest.h; sourceTree = "<group>"; };
+		B7275CA422CEE495E19D5CE5DD162B45 /* PSWebSocketDriver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketDriver.m; path = PocketSocket/PSWebSocketDriver.m; sourceTree = "<group>"; };
+		B72B2B8BB66B5AEA3EB9D08F95EECF05 /* PSWebSocketNetworkThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketNetworkThread.h; path = PocketSocket/PSWebSocketNetworkThread.h; sourceTree = "<group>"; };
+		BB86A2E01B4777B2C89A5FFBD91629DD /* Pods-ledPanelDeamon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ledPanelDeamon-dummy.m"; sourceTree = "<group>"; };
+		C25D9E3DBB13CC5631E33076A3667D3C /* Pods-ledPanelDeamon-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ledPanelDeamon-frameworks.sh"; sourceTree = "<group>"; };
+		C2A3A105F21F54CB49BF0C103E1037EA /* Pods-ledPanelDeamonUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ledPanelDeamonUITests-resources.sh"; sourceTree = "<group>"; };
+		C55D1AB3F7442E6B7DF088F8E8C395B8 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPortManager.h; path = Source/ORSSerialPortManager.h; sourceTree = "<group>"; };
+		D187D406F096C0D49EEA3D87524BDD5E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		D553E3DC79EA350AEBB47ABE0FCF5DD9 /* libPods-ledPanelDeamon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ledPanelDeamon.a"; path = "libPods-ledPanelDeamon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB05DF733DD84B3DF5046975C599B2B4 /* Pods-ledPanelDeamon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ledPanelDeamon.debug.xcconfig"; sourceTree = "<group>"; };
+		DBB779F97FC1C2BF4EB3D2C597B32AE6 /* Pods-ledPanelDeamonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ledPanelDeamonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE945CD59E42D82D056017287F802611 /* PSWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocket.m; path = PocketSocket/PSWebSocket.m; sourceTree = "<group>"; };
+		E93F203030ACECCE1CC9D378462D301C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		EA14C02CD56A42ED7D7687BC43939D44 /* Pods-ledPanelDeamonUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ledPanelDeamonUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ECA3CC33573C7F5F10056CD748ECF0B2 /* ORSSerialBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialBuffer.h; path = Source/ORSSerialBuffer.h; sourceTree = "<group>"; };
+		EF5DC81FD696EA6A3885011C39DA44FA /* ORSSerialPacketDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPacketDescriptor.h; path = Source/ORSSerialPacketDescriptor.h; sourceTree = "<group>"; };
+		F4B3C63AF99F72DA0AFEF8DECD0D6726 /* PSWebSocketUTF8Decoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketUTF8Decoder.h; path = PocketSocket/PSWebSocketUTF8Decoder.h; sourceTree = "<group>"; };
+		F50583709160AA8304B7956E225108C9 /* PSWebSocketBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketBuffer.h; path = PocketSocket/PSWebSocketBuffer.h; sourceTree = "<group>"; };
+		F5AA9DCCF5B0DBFB0EBCB290B09F31ED /* PSWebSocketInflater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketInflater.m; path = PocketSocket/PSWebSocketInflater.m; sourceTree = "<group>"; };
+		F6E52780E82D35DC0F507082F73682FA /* PSWebSocketUTF8Decoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketUTF8Decoder.m; path = PocketSocket/PSWebSocketUTF8Decoder.m; sourceTree = "<group>"; };
+		F89AFA73D57ABAE1A63FA9C1701E0BD3 /* PSWebSocketServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketServer.m; path = PocketSocket/PSWebSocketServer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB6E05C84A2B5AA542F7EA580DCCAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E4EA5CF0EE2A825A4F705A9E4BF6B1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470D3BC71D96CF49328418F7A1B38322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8CD5ED1358689144B3C30D7CDC0851 /* CFNetwork.framework in Frameworks */,
+				E1A2389B3FA4E093859DF2C2268053DD /* Cocoa.framework in Frameworks */,
+				B536693F9F7677176A13674B0F9BD7A4 /* Foundation.framework in Frameworks */,
+				25289A72B532FC36C74950FBF33E441C /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAF08A89ED7132FBC2C19A23817EBBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2D391989CD2490730D04E704270822 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF41BDA3BFC9F6003100A020B0D0504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353B2007B898B24E4AF549938C995792 /* Cocoa.framework in Frameworks */,
+				0B5A5756413E3D5125B6673CEB21AEF2 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E17CD433E225199F6D58A3AB0E3FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7189A53860E8DB6490A25795A769355F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178A06EC2705B46FE1BB38A02AAC7BBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				282B6E9EBBA0F9B3866A55905A3FC82D /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		282B6E9EBBA0F9B3866A55905A3FC82D /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				D187D406F096C0D49EEA3D87524BDD5E /* CFNetwork.framework */,
+				9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */,
+				061D675E652C198EEE5EC0DF4458FEDD /* Foundation.framework */,
+				E93F203030ACECCE1CC9D378462D301C /* IOKit.framework */,
+				A95C832AA1F1806A9477C7BFDC1ECEA6 /* Security.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		2E9A7B4D2D1AF2704FDFA231B5151E38 /* PocketSocket */ = {
+			isa = PBXGroup;
+			children = (
+				A24F3963A58F8AEC499BC1196C8F3DB7 /* Client */,
+				5FBE6875445A02261535DF93CB77E0A9 /* Core */,
+				7518B558B159A95B2D3B91B38321D668 /* Server */,
+				68271476B9A836CC2A5800926ECE6F5B /* Support Files */,
+			);
+			name = PocketSocket;
+			path = PocketSocket;
+			sourceTree = "<group>";
+		};
+		3B08E1F74DFC94C240D147667B6F2C0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15CE8DA9C9158CD5E2C05A6DEA84C0B1 /* ORSSerialPort.xcconfig */,
+				1506DE0D73F1654D363293E1E929839A /* ORSSerialPort-dummy.m */,
+				5DF63DDFA740E9F31F079764A7F6BC07 /* ORSSerialPort-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ORSSerialPort";
+			sourceTree = "<group>";
+		};
+		56EF338C632C4FB1EDF237DE84D95DB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				992279D0E263923F509A04EF904CCBC6 /* ORSSerialPort */,
+				2E9A7B4D2D1AF2704FDFA231B5151E38 /* PocketSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FBE6875445A02261535DF93CB77E0A9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F50583709160AA8304B7956E225108C9 /* PSWebSocketBuffer.h */,
+				AAD61AB2CB930B8A09B0CDDB08511F31 /* PSWebSocketBuffer.m */,
+				0D143B7B960B4DCE155DEC32F51C8BE6 /* PSWebSocketDeflater.h */,
+				0DFCFD3851C402A35B01EB4FFBA618CF /* PSWebSocketDeflater.m */,
+				7389C6F8F396849AA3095DFA595EBB55 /* PSWebSocketDriver.h */,
+				B7275CA422CEE495E19D5CE5DD162B45 /* PSWebSocketDriver.m */,
+				4D83B830FFF344316A2B530AFFC3D274 /* PSWebSocketInflater.h */,
+				F5AA9DCCF5B0DBFB0EBCB290B09F31ED /* PSWebSocketInflater.m */,
+				5DD1A7E49687313C8D3EA1C463B44FB5 /* PSWebSocketInternal.h */,
+				747962508A3F233655AC6C8C3E0EF913 /* PSWebSocketTypes.h */,
+				F4B3C63AF99F72DA0AFEF8DECD0D6726 /* PSWebSocketUTF8Decoder.h */,
+				F6E52780E82D35DC0F507082F73682FA /* PSWebSocketUTF8Decoder.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		68271476B9A836CC2A5800926ECE6F5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49F5184FE471F3D529E979748E282EE2 /* PocketSocket.xcconfig */,
+				9D6475A718B0EA120C1AC710216319F7 /* PocketSocket-dummy.m */,
+				3AE954E09E4C7B5DBF762E49B9EFC30E /* PocketSocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PocketSocket";
+			sourceTree = "<group>";
+		};
+		7518B558B159A95B2D3B91B38321D668 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				A561A212D0B0DF0B596B26ABD4F7B01E /* PSWebSocketServer.h */,
+				F89AFA73D57ABAE1A63FA9C1701E0BD3 /* PSWebSocketServer.m */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		797666693BF2AD4CE150E3A69BA8906B /* Pods-ledPanelDeamonTests */ = {
+			isa = PBXGroup;
+			children = (
+				185AC02035EA3E076676592427F2D293 /* Pods-ledPanelDeamonTests-acknowledgements.markdown */,
+				84153332247035A57A30FD2745EE35A8 /* Pods-ledPanelDeamonTests-acknowledgements.plist */,
+				646221C314F5633B5F75A4B0D02C567E /* Pods-ledPanelDeamonTests-dummy.m */,
+				8D393BC62F749E98F004935047A58315 /* Pods-ledPanelDeamonTests-frameworks.sh */,
+				28DB180F29363CEBC37779C60F998BE3 /* Pods-ledPanelDeamonTests-resources.sh */,
+				82F54EFCE358C7F40685AA0894E62A38 /* Pods-ledPanelDeamonTests.debug.xcconfig */,
+				ABB1D76D68796943EF8F2B3E2B72D2A4 /* Pods-ledPanelDeamonTests.release.xcconfig */,
+			);
+			name = "Pods-ledPanelDeamonTests";
+			path = "Target Support Files/Pods-ledPanelDeamonTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				178A06EC2705B46FE1BB38A02AAC7BBC /* Frameworks */,
+				56EF338C632C4FB1EDF237DE84D95DB3 /* Pods */,
+				9DAA625813104C9AC3A3C1EF628B8E91 /* Products */,
+				8EC6D922FE58B396A51785F25B2082A7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EC6D922FE58B396A51785F25B2082A7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCD32A260BEE4BD7914F7E18F93D0B7 /* Pods-ledPanelDeamon */,
+				797666693BF2AD4CE150E3A69BA8906B /* Pods-ledPanelDeamonTests */,
+				CE176838CADCFDFA172C0755E99CFCFD /* Pods-ledPanelDeamonUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		992279D0E263923F509A04EF904CCBC6 /* ORSSerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				ECA3CC33573C7F5F10056CD748ECF0B2 /* ORSSerialBuffer.h */,
+				9A59C4D9728EC2B4E5675C1B6113E819 /* ORSSerialBuffer.m */,
+				EF5DC81FD696EA6A3885011C39DA44FA /* ORSSerialPacketDescriptor.h */,
+				5982ABCCD0F564352A6AAF1B08118AAD /* ORSSerialPacketDescriptor.m */,
+				A1DA2C11B3D4AF5A47A1F21CA679FD40 /* ORSSerialPort.h */,
+				006FF73843FA3553471690FA961C70A2 /* ORSSerialPort.m */,
+				C55D1AB3F7442E6B7DF088F8E8C395B8 /* ORSSerialPortManager.h */,
+				70311500EA22E7549456DF5D7CEA7512 /* ORSSerialPortManager.m */,
+				B485D91B817D0FF90720B3CAB4CE4C94 /* ORSSerialRequest.h */,
+				16EDA0193023A32D4CE10EA182DE3DFB /* ORSSerialRequest.m */,
+				3B08E1F74DFC94C240D147667B6F2C0C /* Support Files */,
+			);
+			name = ORSSerialPort;
+			path = ORSSerialPort;
+			sourceTree = "<group>";
+		};
+		9DAA625813104C9AC3A3C1EF628B8E91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43E988911CDD26B34799D2C62DA66D97 /* libORSSerialPort.a */,
+				78F839B86501F1A54294110BFDDB0C4A /* libPocketSocket.a */,
+				D553E3DC79EA350AEBB47ABE0FCF5DD9 /* libPods-ledPanelDeamon.a */,
+				5875C51A52567C41949ADB5CBD23813C /* libPods-ledPanelDeamonTests.a */,
+				32C9EB504001E491F697777F07CF5C45 /* libPods-ledPanelDeamonUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A24F3963A58F8AEC499BC1196C8F3DB7 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				7A9C596335EE6445BE69EB11CE441234 /* PSWebSocket.h */,
+				DE945CD59E42D82D056017287F802611 /* PSWebSocket.m */,
+				B72B2B8BB66B5AEA3EB9D08F95EECF05 /* PSWebSocketNetworkThread.h */,
+				81B55E09B72AD23010E028E95CCBC569 /* PSWebSocketNetworkThread.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		CE176838CADCFDFA172C0755E99CFCFD /* Pods-ledPanelDeamonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				508AB77414976B4347BA7DA72003ADF4 /* Pods-ledPanelDeamonUITests-acknowledgements.markdown */,
+				EA14C02CD56A42ED7D7687BC43939D44 /* Pods-ledPanelDeamonUITests-acknowledgements.plist */,
+				AC3977EF7BA894F903DEB0015085168B /* Pods-ledPanelDeamonUITests-dummy.m */,
+				AB55548207E74B2F0FB3D56680A78DE0 /* Pods-ledPanelDeamonUITests-frameworks.sh */,
+				C2A3A105F21F54CB49BF0C103E1037EA /* Pods-ledPanelDeamonUITests-resources.sh */,
+				DBB779F97FC1C2BF4EB3D2C597B32AE6 /* Pods-ledPanelDeamonUITests.debug.xcconfig */,
+				6BAFD0166E164D900790CF4DEBB5927B /* Pods-ledPanelDeamonUITests.release.xcconfig */,
+			);
+			name = "Pods-ledPanelDeamonUITests";
+			path = "Target Support Files/Pods-ledPanelDeamonUITests";
+			sourceTree = "<group>";
+		};
+		FDCD32A260BEE4BD7914F7E18F93D0B7 /* Pods-ledPanelDeamon */ = {
+			isa = PBXGroup;
+			children = (
+				8B7C7EAA706538F95937E4002A50E90D /* Pods-ledPanelDeamon-acknowledgements.markdown */,
+				A0AC35979012D13BADE47A32782F14F4 /* Pods-ledPanelDeamon-acknowledgements.plist */,
+				BB86A2E01B4777B2C89A5FFBD91629DD /* Pods-ledPanelDeamon-dummy.m */,
+				C25D9E3DBB13CC5631E33076A3667D3C /* Pods-ledPanelDeamon-frameworks.sh */,
+				06D3F64867BCF69FC587DDFF1EC9DAE1 /* Pods-ledPanelDeamon-resources.sh */,
+				DB05DF733DD84B3DF5046975C599B2B4 /* Pods-ledPanelDeamon.debug.xcconfig */,
+				841F04066B79AA5167F5B75918096FE3 /* Pods-ledPanelDeamon.release.xcconfig */,
+			);
+			name = "Pods-ledPanelDeamon";
+			path = "Target Support Files/Pods-ledPanelDeamon";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		501B9FC33DFD4307682810FC46303240 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7957222A49376CFE5EC3943D1A457F /* ORSSerialBuffer.h in Headers */,
+				A2C2EA76CA86DD08F1AAA386ADC49106 /* ORSSerialPacketDescriptor.h in Headers */,
+				ECA1818FCF07425028236FFDA2C1E60F /* ORSSerialPort.h in Headers */,
+				BD29A9C9AAA5480C2F0E9FA47347FF1D /* ORSSerialPortManager.h in Headers */,
+				ABFD0F8FD93CAEE149FE37D354567584 /* ORSSerialRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9FF55E438DC1ED48DA184C4C8D2039 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524C506A9A8F3708084ED387619A8351 /* PSWebSocket.h in Headers */,
+				410D223B99B98C4A8A8CBF628163D1D4 /* PSWebSocketBuffer.h in Headers */,
+				16835B96FE7E7CFF51D10D2CA59C4F19 /* PSWebSocketDeflater.h in Headers */,
+				6A49D3AD21569EF7305CA08E8EDB8CC1 /* PSWebSocketDriver.h in Headers */,
+				273F6249FF51FDE53897A230A2438BF4 /* PSWebSocketInflater.h in Headers */,
+				1581CD5B254BCF8A339D196B9AE6F1F7 /* PSWebSocketInternal.h in Headers */,
+				D94255D948AC6BF92648FF22A0C3C873 /* PSWebSocketNetworkThread.h in Headers */,
+				39A2D619FD64D692DF67F4851B1F772B /* PSWebSocketServer.h in Headers */,
+				96D5146E7A558F2AA71CF2C4E6FE3A3A /* PSWebSocketTypes.h in Headers */,
+				27262571A2188684A395F57C3470C63B /* PSWebSocketUTF8Decoder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20400FF3DA372102C2D5F15FA6DDA7C1 /* PocketSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AED46970CE2AFE70A809D3DF58003C8 /* Build configuration list for PBXNativeTarget "PocketSocket" */;
+			buildPhases = (
+				38FE327F1602F428E4074A6F4696841F /* Sources */,
+				470D3BC71D96CF49328418F7A1B38322 /* Frameworks */,
+				5D9FF55E438DC1ED48DA184C4C8D2039 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketSocket;
+			productName = PocketSocket;
+			productReference = 78F839B86501F1A54294110BFDDB0C4A /* libPocketSocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		38893AB56435BF7D58685C38F61A6B03 /* Pods-ledPanelDeamon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E389216F349A0C39654FC5AA93113B88 /* Build configuration list for PBXNativeTarget "Pods-ledPanelDeamon" */;
+			buildPhases = (
+				BD1AE868BD58275D3DF830B60272339C /* Sources */,
+				3CB6E05C84A2B5AA542F7EA580DCCAED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67BBAE434F901D1F847D3F8ACB219F49 /* PBXTargetDependency */,
+				5E6F5D4F1CDA41420D3CFD2D58692780 /* PBXTargetDependency */,
+			);
+			name = "Pods-ledPanelDeamon";
+			productName = "Pods-ledPanelDeamon";
+			productReference = D553E3DC79EA350AEBB47ABE0FCF5DD9 /* libPods-ledPanelDeamon.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7419BD1F6208928B0411C0ECDDB24B91 /* ORSSerialPort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0516E3D91103405DB8309AF3225795 /* Build configuration list for PBXNativeTarget "ORSSerialPort" */;
+			buildPhases = (
+				ACCC4525E7FE41D5556E1D514AF36B29 /* Sources */,
+				6AF41BDA3BFC9F6003100A020B0D0504 /* Frameworks */,
+				501B9FC33DFD4307682810FC46303240 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ORSSerialPort;
+			productName = ORSSerialPort;
+			productReference = 43E988911CDD26B34799D2C62DA66D97 /* libORSSerialPort.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CCC9EA6D18D87C462E57562821A5970A /* Pods-ledPanelDeamonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460AC2FD5B783F9F8925C5213D3132E9 /* Build configuration list for PBXNativeTarget "Pods-ledPanelDeamonUITests" */;
+			buildPhases = (
+				AFA8BC49F2ED4E86735E86626EAE588E /* Sources */,
+				4AAF08A89ED7132FBC2C19A23817EBBF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ledPanelDeamonUITests";
+			productName = "Pods-ledPanelDeamonUITests";
+			productReference = 32C9EB504001E491F697777F07CF5C45 /* libPods-ledPanelDeamonUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D51A78E2BFE0B40C65CA4A3F3E760B27 /* Pods-ledPanelDeamonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3CEC1146E1CD138FC596C2A45229E9 /* Build configuration list for PBXNativeTarget "Pods-ledPanelDeamonTests" */;
+			buildPhases = (
+				CB95E2EDB62D31BDFE01166F17B85BE7 /* Sources */,
+				A7E17CD433E225199F6D58A3AB0E3FE5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ledPanelDeamonTests";
+			productName = "Pods-ledPanelDeamonTests";
+			productReference = 5875C51A52567C41949ADB5CBD23813C /* libPods-ledPanelDeamonTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9DAA625813104C9AC3A3C1EF628B8E91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7419BD1F6208928B0411C0ECDDB24B91 /* ORSSerialPort */,
+				20400FF3DA372102C2D5F15FA6DDA7C1 /* PocketSocket */,
+				38893AB56435BF7D58685C38F61A6B03 /* Pods-ledPanelDeamon */,
+				D51A78E2BFE0B40C65CA4A3F3E760B27 /* Pods-ledPanelDeamonTests */,
+				CCC9EA6D18D87C462E57562821A5970A /* Pods-ledPanelDeamonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38FE327F1602F428E4074A6F4696841F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD84F3920D7CA6A3D2678347514181C /* PocketSocket-dummy.m in Sources */,
+				89DF61BA984DC98529ABF2E5ACBC70D8 /* PSWebSocket.m in Sources */,
+				519D24D37AAD79A0ABBCEE2256EDF19E /* PSWebSocketBuffer.m in Sources */,
+				2FA84B764E96E9360A7E7F316C60A763 /* PSWebSocketDeflater.m in Sources */,
+				E4EDB920A855305CDFF0282850983BBE /* PSWebSocketDriver.m in Sources */,
+				9732D315E08B03892760637E9A6805EA /* PSWebSocketInflater.m in Sources */,
+				80CB191A6B0938BE94CB167AD448EA84 /* PSWebSocketNetworkThread.m in Sources */,
+				F5CCA322F7D07BFC7666BDC9277015BC /* PSWebSocketServer.m in Sources */,
+				20294F48A3160F2288293885C50DF376 /* PSWebSocketUTF8Decoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCC4525E7FE41D5556E1D514AF36B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CECD99BB1B98CA5917728A56813E4A8 /* ORSSerialBuffer.m in Sources */,
+				540C6ED6C8A3E397AE4E5EACBFDC845C /* ORSSerialPacketDescriptor.m in Sources */,
+				4508CCC39AC985EC513F9D561B89FAB2 /* ORSSerialPort-dummy.m in Sources */,
+				9D7FB4C9F0273F308127342455571D0C /* ORSSerialPort.m in Sources */,
+				912DA540CED5BEF18EF40F9A0FEA760F /* ORSSerialPortManager.m in Sources */,
+				94A793235E721EA076B55A067F60A25C /* ORSSerialRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA8BC49F2ED4E86735E86626EAE588E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1195D10687AF1D3FBD9C4154BF1512 /* Pods-ledPanelDeamonUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1AE868BD58275D3DF830B60272339C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CAD0459573181A2FA4BCA7206C3EFA /* Pods-ledPanelDeamon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB95E2EDB62D31BDFE01166F17B85BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576D166920A80DDD0982ACECB22F8264 /* Pods-ledPanelDeamonTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E6F5D4F1CDA41420D3CFD2D58692780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PocketSocket;
+			target = 20400FF3DA372102C2D5F15FA6DDA7C1 /* PocketSocket */;
+			targetProxy = 22DFDDEED6E360370F2F77C5CA3E0438 /* PBXContainerItemProxy */;
+		};
+		67BBAE434F901D1F847D3F8ACB219F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ORSSerialPort;
+			target = 7419BD1F6208928B0411C0ECDDB24B91 /* ORSSerialPort */;
+			targetProxy = 262B2C59043D3852E20380133C20D725 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		153D413306D5CFF73487B29509BC36D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB779F97FC1C2BF4EB3D2C597B32AE6 /* Pods-ledPanelDeamonUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5C82FE10A7A9FE55EFB588533FA8DFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F54EFCE358C7F40685AA0894E62A38 /* Pods-ledPanelDeamonTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5D622BA00757EC20ADAD24C580904C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62ED302602720DDB653A42D0F530F80D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB1D76D68796943EF8F2B3E2B72D2A4 /* Pods-ledPanelDeamonTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6A1EE5A3F8D22233A19DEE53B854AFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F5184FE471F3D529E979748E282EE2 /* PocketSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PocketSocket/PocketSocket-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6CFE2508C20DD741465EE5633A933BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F5184FE471F3D529E979748E282EE2 /* PocketSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PocketSocket/PocketSocket-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6F27E120E2ACD1F17EBE69DA71500AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15CE8DA9C9158CD5E2C05A6DEA84C0B1 /* ORSSerialPort.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ORSSerialPort/ORSSerialPort-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB74B5E09B30AE94F1D9671501EA01E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B97A64E693BA65FB7B49FD1F14DF0FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841F04066B79AA5167F5B75918096FE3 /* Pods-ledPanelDeamon.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D12B5678E83C077B9A7A8FC286138316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB05DF733DD84B3DF5046975C599B2B4 /* Pods-ledPanelDeamon.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E054F278A3D99B65BDF5110AB2BFE3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BAFD0166E164D900790CF4DEBB5927B /* Pods-ledPanelDeamonUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E915B9C0163D1F10816CECD8625E5B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15CE8DA9C9158CD5E2C05A6DEA84C0B1 /* ORSSerialPort.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ORSSerialPort/ORSSerialPort-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AED46970CE2AFE70A809D3DF58003C8 /* Build configuration list for PBXNativeTarget "PocketSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CFE2508C20DD741465EE5633A933BED /* Debug */,
+				6A1EE5A3F8D22233A19DEE53B854AFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB74B5E09B30AE94F1D9671501EA01E8 /* Debug */,
+				5D622BA00757EC20ADAD24C580904C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0516E3D91103405DB8309AF3225795 /* Build configuration list for PBXNativeTarget "ORSSerialPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F27E120E2ACD1F17EBE69DA71500AB5 /* Debug */,
+				E915B9C0163D1F10816CECD8625E5B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460AC2FD5B783F9F8925C5213D3132E9 /* Build configuration list for PBXNativeTarget "Pods-ledPanelDeamonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153D413306D5CFF73487B29509BC36D6 /* Debug */,
+				E054F278A3D99B65BDF5110AB2BFE3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3CEC1146E1CD138FC596C2A45229E9 /* Build configuration list for PBXNativeTarget "Pods-ledPanelDeamonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C82FE10A7A9FE55EFB588533FA8DFE2 /* Debug */,
+				62ED302602720DDB653A42D0F530F80D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E389216F349A0C39654FC5AA93113B88 /* Build configuration list for PBXNativeTarget "Pods-ledPanelDeamon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12B5678E83C077B9A7A8FC286138316 /* Debug */,
+				B97A64E693BA65FB7B49FD1F14DF0FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
