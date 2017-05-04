@@ -19,10 +19,10 @@
     [super viewDidLoad];
     [self availablePorts];
     [self connectSerialPort];
+
    
     _bufferString = [[NSMutableString alloc] initWithString:@""];
-    
-   
+
 }
 
 - (void)setRepresentedObject:(id)representedObject {
@@ -90,6 +90,7 @@
 }
 - (void)serialPort:(ORSSerialPort *)serialPort didReceiveData:(NSData *)data
 {
+
     NSMutableString *string = [[NSMutableString alloc] initWithData:data encoding:NSUTF8StringEncoding];
      NSError *error;
     

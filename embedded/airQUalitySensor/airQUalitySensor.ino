@@ -34,12 +34,20 @@ void loop() {
   {
     ratio = lowpulseoccupancy/(sampletime_ms*10.0);  // Integer percentage 0=>100
     concentration = 1.1*pow(ratio,3)-3.8*pow(ratio,2)+520*ratio+0.62; // using spec sheet curve
+<<<<<<< HEAD
     //Serial.print(lowpulseoccupancy);
     //Serial.print(",");
     //Serial.print(ratio);
     Serial.print("-");
     Serial.print(concentration);
     Serial.println("F");
+=======
+    Serial.print(lowpulseoccupancy);
+    Serial.print(",");
+    Serial.print(ratio);
+    Serial.print(",");
+    Serial.println(concentration);
+>>>>>>> d6d90e287c8b46da9029ae9c3599fe3e8e9938d1
     lowpulseoccupancy = 0;
     starttime = millis();
   }

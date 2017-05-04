@@ -541,7 +541,7 @@
                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="viU-SO-20G">
                                             <rect key="frame" x="18" y="196" width="204" height="28"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Just started" id="kwd-0D-ZFH">
+                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="- -" id="kwd-0D-ZFH">
                                                 <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" red="0.55288776179999999" green="0.55288776179999999" blue="0.55288776179999999" alpha="0.94300199470000001" colorSpace="calibratedRGB"/>
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>

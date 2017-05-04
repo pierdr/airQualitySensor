@@ -10,6 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ledPanelDeamon/ViewController.m"
+<<<<<<< HEAD
             timestampString = "515480322.455465"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -31,6 +32,13 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
             endingLineNumber = "41"
+=======
+            timestampString = "515568300.367687"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+>>>>>>> d6d90e287c8b46da9029ae9c3599fe3e8e9938d1
             landmarkName = "-connectSerialPort"
             landmarkType = "7">
          </BreakpointContent>

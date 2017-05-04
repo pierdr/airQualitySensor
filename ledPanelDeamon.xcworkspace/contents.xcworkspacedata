@@ -2,7 +2,11 @@
 <Workspace
    version = "1.0">
    <FileRef
+<<<<<<< HEAD
       location = "group:airQualityDataDownloader.xcodeproj">
+=======
+      location = "group:/Users/pierluigi.dallarosa/PIER/airQualityDataDownloader/airQualityDataDownloader.xcodeproj">
+>>>>>>> d6d90e287c8b46da9029ae9c3599fe3e8e9938d1
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

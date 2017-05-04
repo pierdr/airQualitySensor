@@ -22,7 +22,9 @@
 
 @property (strong,nonatomic)IBOutlet NSTextField*               infoLabel;
 @property (strong,nonatomic)IBOutlet NSTextField*               dataLabel;
+
 @property (strong,nonatomic)NSMutableString*                    bufferString;
+
 
 
 
