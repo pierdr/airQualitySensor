@@ -10,6 +10,6 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication;
 @end
 
