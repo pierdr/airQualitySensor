@@ -14,17 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-ledPanelDeamon.xcscheme</key>
+		<key>Pods-airQualityDataDownloader.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-ledPanelDeamonTests.xcscheme</key>
+		<key>Pods-airQualityDataDownloaderTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-ledPanelDeamonUITests.xcscheme</key>
+		<key>Pods-airQualityDataDownloaderUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,27 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>08641CA6AA8DBCF195E6E5B89D865641</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>20400FF3DA372102C2D5F15FA6DDA7C1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>38893AB56435BF7D58685C38F61A6B03</key>
+		<key>56FC0D82D47DE68DB1C15188A4B7AD1D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>639942D5FB65F888FA5B4729CAF37877</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>7419BD1F6208928B0411C0ECDDB24B91</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CCC9EA6D18D87C462E57562821A5970A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D51A78E2BFE0B40C65CA4A3F3E760B27</key>
 		<dict>
 			<key>primary</key>
 			<true/>

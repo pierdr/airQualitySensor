@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30FB5C45172C71E8389C7B4D /* libPods-airQualityDataDownloaderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF496959278AD27B71075730 /* libPods-airQualityDataDownloaderUITests.a */; };
+		3AAB88962D14B1FAB2D0528B /* libPods-airQualityDataDownloaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0724620C8FE7E75850CD9264 /* libPods-airQualityDataDownloaderTests.a */; };
 		7876A4CF943040A64EEEE455 /* libPods-ledPanelDeamon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B363CD58DCE445C50683672E /* libPods-ledPanelDeamon.a */; };
+		ACA78E9718B8BCD391A95921 /* libPods-airQualityDataDownloader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A3F671082E486ABD45C3BB /* libPods-airQualityDataDownloader.a */; };
 		B90FC2D01EA43A36008EAE97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2CF1EA43A36008EAE97 /* AppDelegate.m */; };
 		B90FC2D31EA43A36008EAE97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2D21EA43A36008EAE97 /* main.m */; };
 		B90FC2D61EA43A36008EAE97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2D51EA43A36008EAE97 /* ViewController.m */; };
 		B90FC2D81EA43A36008EAE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90FC2D71EA43A36008EAE97 /* Assets.xcassets */; };
 		B90FC2DB1EA43A36008EAE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90FC2D91EA43A36008EAE97 /* Main.storyboard */; };
-		B90FC2E61EA43A36008EAE97 /* ledPanelDeamonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2E51EA43A36008EAE97 /* ledPanelDeamonTests.m */; };
-		B90FC2F11EA43A36008EAE97 /* ledPanelDeamonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2F01EA43A36008EAE97 /* ledPanelDeamonUITests.m */; };
+		B90FC2E61EA43A36008EAE97 /* airQualityDataDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2E51EA43A36008EAE97 /* airQualityDataDownloaderTests.m */; };
+		B90FC2F11EA43A36008EAE97 /* airQualityDataDownloaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2F01EA43A36008EAE97 /* airQualityDataDownloaderUITests.m */; };
 		C35B68A1FB5B11F2672BFB88 /* libPods-ledPanelDeamonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA443586E448B0A94FD6BA6D /* libPods-ledPanelDeamonUITests.a */; };
 		EC63A7C2CC917E0BE2B9DBEA /* libPods-ledPanelDeamonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BD0617D0440424F0EA73DD /* libPods-ledPanelDeamonTests.a */; };
 /* End PBXBuildFile section */
@@ -37,9 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0724620C8FE7E75850CD9264 /* libPods-airQualityDataDownloaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-airQualityDataDownloaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0781D59E95B6EEDBF9CAE91C /* Pods-airQualityDataDownloaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airQualityDataDownloaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-airQualityDataDownloaderTests/Pods-airQualityDataDownloaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28FF8BEE3D50F45200856722 /* Pods-airQualityDataDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airQualityDataDownloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-airQualityDataDownloader/Pods-airQualityDataDownloader.release.xcconfig"; sourceTree = "<group>"; };
+		4CACBD35B2E96DA70576A8EF /* Pods-airQualityDataDownloaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airQualityDataDownloaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-airQualityDataDownloaderTests/Pods-airQualityDataDownloaderTests.release.xcconfig"; sourceTree = "<group>"; };
 		661DDA271B35022DC751FAAB /* Pods-ledPanelDeamonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamonUITests/Pods-ledPanelDeamonUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7A2F8C841F9C674D6E14710D /* Pods-ledPanelDeamonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamonTests/Pods-ledPanelDeamonTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8A3F671082E486ABD45C3BB /* libPods-airQualityDataDownloader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-airQualityDataDownloader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5C603A2FED9A725B571B2D /* Pods-ledPanelDeamon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamon/Pods-ledPanelDeamon.debug.xcconfig"; sourceTree = "<group>"; };
+		B1BA1E6A36E56FC3A17E1FC6 /* Pods-airQualityDataDownloaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airQualityDataDownloaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-airQualityDataDownloaderUITests/Pods-airQualityDataDownloaderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B1C8C2D765BE6416ACA25F00 /* Pods-ledPanelDeamon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamon.release.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamon/Pods-ledPanelDeamon.release.xcconfig"; sourceTree = "<group>"; };
 		B363CD58DCE445C50683672E /* libPods-ledPanelDeamon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ledPanelDeamon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90FC2CB1EA43A36008EAE97 /* airQualityDataDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airQualityDataDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,14 +61,17 @@
 		B90FC2DA1EA43A36008EAE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B90FC2DC1EA43A36008EAE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B90FC2E11EA43A36008EAE97 /* airQualityDataDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airQualityDataDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B90FC2E51EA43A36008EAE97 /* ledPanelDeamonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ledPanelDeamonTests.m; sourceTree = "<group>"; };
+		B90FC2E51EA43A36008EAE97 /* airQualityDataDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = airQualityDataDownloaderTests.m; sourceTree = "<group>"; };
 		B90FC2E71EA43A36008EAE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B90FC2EC1EA43A36008EAE97 /* airQualityDataDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airQualityDataDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B90FC2F01EA43A36008EAE97 /* ledPanelDeamonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ledPanelDeamonUITests.m; sourceTree = "<group>"; };
+		B90FC2F01EA43A36008EAE97 /* airQualityDataDownloaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = airQualityDataDownloaderUITests.m; sourceTree = "<group>"; };
 		B90FC2F21EA43A36008EAE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA443586E448B0A94FD6BA6D /* libPods-ledPanelDeamonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ledPanelDeamonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C655EB8A48D76C66AD4B95F6 /* Pods-airQualityDataDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airQualityDataDownloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-airQualityDataDownloader/Pods-airQualityDataDownloader.debug.xcconfig"; sourceTree = "<group>"; };
 		D6BD0617D0440424F0EA73DD /* libPods-ledPanelDeamonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ledPanelDeamonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7325B85D040A26F60350C3B /* Pods-ledPanelDeamonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamonTests/Pods-ledPanelDeamonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF496959278AD27B71075730 /* libPods-airQualityDataDownloaderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-airQualityDataDownloaderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA43621550C039CD0E76F380 /* Pods-airQualityDataDownloaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airQualityDataDownloaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-airQualityDataDownloaderUITests/Pods-airQualityDataDownloaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC88A45A3DEC635C632A5E12 /* Pods-ledPanelDeamonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamonUITests/Pods-ledPanelDeamonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +81,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7876A4CF943040A64EEEE455 /* libPods-ledPanelDeamon.a in Frameworks */,
+				ACA78E9718B8BCD391A95921 /* libPods-airQualityDataDownloader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC63A7C2CC917E0BE2B9DBEA /* libPods-ledPanelDeamonTests.a in Frameworks */,
+				3AAB88962D14B1FAB2D0528B /* libPods-airQualityDataDownloaderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C35B68A1FB5B11F2672BFB88 /* libPods-ledPanelDeamonUITests.a in Frameworks */,
+				30FB5C45172C71E8389C7B4D /* libPods-airQualityDataDownloaderUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +115,12 @@
 				7A2F8C841F9C674D6E14710D /* Pods-ledPanelDeamonTests.release.xcconfig */,
 				FC88A45A3DEC635C632A5E12 /* Pods-ledPanelDeamonUITests.debug.xcconfig */,
 				661DDA271B35022DC751FAAB /* Pods-ledPanelDeamonUITests.release.xcconfig */,
+				C655EB8A48D76C66AD4B95F6 /* Pods-airQualityDataDownloader.debug.xcconfig */,
+				28FF8BEE3D50F45200856722 /* Pods-airQualityDataDownloader.release.xcconfig */,
+				0781D59E95B6EEDBF9CAE91C /* Pods-airQualityDataDownloaderTests.debug.xcconfig */,
+				4CACBD35B2E96DA70576A8EF /* Pods-airQualityDataDownloaderTests.release.xcconfig */,
+				FA43621550C039CD0E76F380 /* Pods-airQualityDataDownloaderUITests.debug.xcconfig */,
+				B1BA1E6A36E56FC3A17E1FC6 /* Pods-airQualityDataDownloaderUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -152,7 +173,7 @@
 		B90FC2E41EA43A36008EAE97 /* ledPanelDeamonTests */ = {
 			isa = PBXGroup;
 			children = (
-				B90FC2E51EA43A36008EAE97 /* ledPanelDeamonTests.m */,
+				B90FC2E51EA43A36008EAE97 /* airQualityDataDownloaderTests.m */,
 				B90FC2E71EA43A36008EAE97 /* Info.plist */,
 			);
 			path = ledPanelDeamonTests;
@@ -161,7 +182,7 @@
 		B90FC2EF1EA43A36008EAE97 /* ledPanelDeamonUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B90FC2F01EA43A36008EAE97 /* ledPanelDeamonUITests.m */,
+				B90FC2F01EA43A36008EAE97 /* airQualityDataDownloaderUITests.m */,
 				B90FC2F21EA43A36008EAE97 /* Info.plist */,
 			);
 			path = ledPanelDeamonUITests;
@@ -173,6 +194,9 @@
 				B363CD58DCE445C50683672E /* libPods-ledPanelDeamon.a */,
 				D6BD0617D0440424F0EA73DD /* libPods-ledPanelDeamonTests.a */,
 				BA443586E448B0A94FD6BA6D /* libPods-ledPanelDeamonUITests.a */,
+				A8A3F671082E486ABD45C3BB /* libPods-airQualityDataDownloader.a */,
+				0724620C8FE7E75850CD9264 /* libPods-airQualityDataDownloaderTests.a */,
+				EF496959278AD27B71075730 /* libPods-airQualityDataDownloaderUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -329,7 +353,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ledPanelDeamonUITests/Pods-ledPanelDeamonUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-airQualityDataDownloaderUITests/Pods-airQualityDataDownloaderUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		04E78A39F739A6F02CBA3274 /* [CP] Check Pods Manifest.lock */ = {
@@ -359,7 +383,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ledPanelDeamonUITests/Pods-ledPanelDeamonUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-airQualityDataDownloaderUITests/Pods-airQualityDataDownloaderUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8489BD0CEAC1F5E12CFF7646 /* [CP] Check Pods Manifest.lock */ = {
@@ -389,7 +413,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ledPanelDeamonTests/Pods-ledPanelDeamonTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-airQualityDataDownloaderTests/Pods-airQualityDataDownloaderTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A0D523CADA115B31F66003E5 /* [CP] Check Pods Manifest.lock */ = {
@@ -419,7 +443,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ledPanelDeamonTests/Pods-ledPanelDeamonTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-airQualityDataDownloaderTests/Pods-airQualityDataDownloaderTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D73051915C4548D612B17919 /* [CP] Copy Pods Resources */ = {
@@ -434,7 +458,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ledPanelDeamon/Pods-ledPanelDeamon-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-airQualityDataDownloader/Pods-airQualityDataDownloader-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DE8E89F7A0965071F2815897 /* [CP] Embed Pods Frameworks */ = {
@@ -449,7 +473,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ledPanelDeamon/Pods-ledPanelDeamon-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-airQualityDataDownloader/Pods-airQualityDataDownloader-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -469,7 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B90FC2E61EA43A36008EAE97 /* ledPanelDeamonTests.m in Sources */,
+				B90FC2E61EA43A36008EAE97 /* airQualityDataDownloaderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +501,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B90FC2F11EA43A36008EAE97 /* ledPanelDeamonUITests.m in Sources */,
+				B90FC2F11EA43A36008EAE97 /* airQualityDataDownloaderUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,7 +621,7 @@
 		};
 		B90FC2F61EA43A36008EAE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE5C603A2FED9A725B571B2D /* Pods-ledPanelDeamon.debug.xcconfig */;
+			baseConfigurationReference = C655EB8A48D76C66AD4B95F6 /* Pods-airQualityDataDownloader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -611,7 +635,7 @@
 		};
 		B90FC2F71EA43A36008EAE97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1C8C2D765BE6416ACA25F00 /* Pods-ledPanelDeamon.release.xcconfig */;
+			baseConfigurationReference = 28FF8BEE3D50F45200856722 /* Pods-airQualityDataDownloader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -625,7 +649,7 @@
 		};
 		B90FC2F91EA43A36008EAE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7325B85D040A26F60350C3B /* Pods-ledPanelDeamonTests.debug.xcconfig */;
+			baseConfigurationReference = 0781D59E95B6EEDBF9CAE91C /* Pods-airQualityDataDownloaderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -640,7 +664,7 @@
 		};
 		B90FC2FA1EA43A36008EAE97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A2F8C841F9C674D6E14710D /* Pods-ledPanelDeamonTests.release.xcconfig */;
+			baseConfigurationReference = 4CACBD35B2E96DA70576A8EF /* Pods-airQualityDataDownloaderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -655,7 +679,7 @@
 		};
 		B90FC2FC1EA43A36008EAE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC88A45A3DEC635C632A5E12 /* Pods-ledPanelDeamonUITests.debug.xcconfig */;
+			baseConfigurationReference = FA43621550C039CD0E76F380 /* Pods-airQualityDataDownloaderUITests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5AQYUURPL7;
@@ -669,7 +693,7 @@
 		};
 		B90FC2FD1EA43A36008EAE97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 661DDA271B35022DC751FAAB /* Pods-ledPanelDeamonUITests.release.xcconfig */;
+			baseConfigurationReference = B1BA1E6A36E56FC3A17E1FC6 /* Pods-airQualityDataDownloaderUITests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5AQYUURPL7;
