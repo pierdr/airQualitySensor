@@ -12,9 +12,9 @@
    Sensor Pin 4 => Arduino Digital Pin 3
 */
 
-int pin = 3;
+int pin = 8;
 // Sample time in milliseconds 30 seconds
-unsigned long sampletime_ms = 30000;
+unsigned long sampletime_ms = 15000;
 unsigned long starttime;
 unsigned long duration = 0;
 unsigned long elapsedtime = 0;
@@ -28,6 +28,7 @@ void setup() {
   pinMode(pin,INPUT);
   // Get current time to measure sample time
   starttime = millis();
+  Serial.println("started");
 }
 
 void loop() {
@@ -42,7 +43,7 @@ void loop() {
     timestamp=millis()/1000;
     //Serial.print("Timestamp: ");
     //Serial.print(timestamp);
-    Serial.print("C");//concentration
+    //Serial.print("C");//concentration
     Serial.print(concentration);
     Serial.println("F");// particles per .01 cu ft
     // Reset values for next sampling period.

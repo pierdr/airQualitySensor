@@ -101,14 +101,14 @@
         NSLog(@"%@",_bufferString);
         
         NSString *path = [NSHomeDirectory() stringByAppendingPathComponent:@"tmp"]; //get tmp path
-        NSString *filePath = [path stringByAppendingPathComponent:@"data1.txt"];
+        NSString *filePath = [path stringByAppendingPathComponent:@"data2.txt"];
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         
         NSTimeZone *timeZone = [NSTimeZone timeZoneWithName:@"US/Pacific"];
         
         [dateFormatter setTimeZone:timeZone];
         
-        [dateFormatter setDateFormat:@"[MMdd_HHmmss]"];
+        [dateFormatter setDateFormat:@"[MMdd_HHmmss],"];
         
         NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
         string = [NSMutableString stringWithFormat:@"%@%@%@%@",[NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&error],([string containsString:@"F"])?@"\n":@"",([string containsString:@"F"])?dateString:@"",_bufferString];
