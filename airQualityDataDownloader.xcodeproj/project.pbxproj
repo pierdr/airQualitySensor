@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		30FB5C45172C71E8389C7B4D /* libPods-airQualityDataDownloaderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF496959278AD27B71075730 /* libPods-airQualityDataDownloaderUITests.a */; };
 		3AAB88962D14B1FAB2D0528B /* libPods-airQualityDataDownloaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0724620C8FE7E75850CD9264 /* libPods-airQualityDataDownloaderTests.a */; };
-		7876A4CF943040A64EEEE455 /* libPods-ledPanelDeamon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B363CD58DCE445C50683672E /* libPods-ledPanelDeamon.a */; };
 		ACA78E9718B8BCD391A95921 /* libPods-airQualityDataDownloader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A3F671082E486ABD45C3BB /* libPods-airQualityDataDownloader.a */; };
 		B90FC2D01EA43A36008EAE97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2CF1EA43A36008EAE97 /* AppDelegate.m */; };
 		B90FC2D31EA43A36008EAE97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2D21EA43A36008EAE97 /* main.m */; };
@@ -80,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7876A4CF943040A64EEEE455 /* libPods-ledPanelDeamon.a in Frameworks */,
 				ACA78E9718B8BCD391A95921 /* libPods-airQualityDataDownloader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,9 +126,9 @@
 		B90FC2C21EA43A36008EAE97 = {
 			isa = PBXGroup;
 			children = (
-				B90FC2CD1EA43A36008EAE97 /* ledPanelDeamon */,
-				B90FC2E41EA43A36008EAE97 /* ledPanelDeamonTests */,
-				B90FC2EF1EA43A36008EAE97 /* ledPanelDeamonUITests */,
+				B90FC2CD1EA43A36008EAE97 /* airQualityDataDownloader */,
+				B90FC2E41EA43A36008EAE97 /* airQualityDataDownloaderTests */,
+				B90FC2EF1EA43A36008EAE97 /* airQualityDataDownloaderUITests */,
 				B90FC2CC1EA43A36008EAE97 /* Products */,
 				82E3AD55A57C8A2FF0A91808 /* Pods */,
 				BC063C7BD6EF496B9D02810D /* Frameworks */,
@@ -147,7 +145,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B90FC2CD1EA43A36008EAE97 /* ledPanelDeamon */ = {
+		B90FC2CD1EA43A36008EAE97 /* airQualityDataDownloader */ = {
 			isa = PBXGroup;
 			children = (
 				B90FC2CE1EA43A36008EAE97 /* AppDelegate.h */,
@@ -159,6 +157,7 @@
 				B90FC2DC1EA43A36008EAE97 /* Info.plist */,
 				B90FC2D11EA43A36008EAE97 /* Supporting Files */,
 			);
+			name = airQualityDataDownloader;
 			path = ledPanelDeamon;
 			sourceTree = "<group>";
 		};
@@ -170,21 +169,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B90FC2E41EA43A36008EAE97 /* ledPanelDeamonTests */ = {
+		B90FC2E41EA43A36008EAE97 /* airQualityDataDownloaderTests */ = {
 			isa = PBXGroup;
 			children = (
 				B90FC2E51EA43A36008EAE97 /* airQualityDataDownloaderTests.m */,
 				B90FC2E71EA43A36008EAE97 /* Info.plist */,
 			);
+			name = airQualityDataDownloaderTests;
 			path = ledPanelDeamonTests;
 			sourceTree = "<group>";
 		};
-		B90FC2EF1EA43A36008EAE97 /* ledPanelDeamonUITests */ = {
+		B90FC2EF1EA43A36008EAE97 /* airQualityDataDownloaderUITests */ = {
 			isa = PBXGroup;
 			children = (
 				B90FC2F01EA43A36008EAE97 /* airQualityDataDownloaderUITests.m */,
 				B90FC2F21EA43A36008EAE97 /* Info.plist */,
 			);
+			name = airQualityDataDownloaderUITests;
 			path = ledPanelDeamonUITests;
 			sourceTree = "<group>";
 		};
