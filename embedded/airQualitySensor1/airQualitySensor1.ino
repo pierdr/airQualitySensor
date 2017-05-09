@@ -28,7 +28,7 @@ void setup() {
   pinMode(pin,INPUT);
   // Get current time to measure sample time
   starttime = millis();
-  Serial.println("started");
+  //Serial.println("started");
 }
 
 void loop() {

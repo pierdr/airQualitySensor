@@ -93,24 +93,37 @@
 
     NSMutableString *string = [[NSMutableString alloc] initWithData:data encoding:NSUTF8StringEncoding];
      NSError *error;
-    
+    NSLog(@"%@",_bufferString );
     if([string containsString:@"F"])
     {
+        if([string isEqualToString:@"F"])
+        {
+            _bufferString = [[NSMutableString alloc] initWithString:@""];
+            return;
+        }
         [_dataLabel setStringValue:string];
         [_bufferString appendString:string];
         NSLog(@"%@",_bufferString);
         
         NSString *path = [NSHomeDirectory() stringByAppendingPathComponent:@"tmp"]; //get tmp path
-        NSString *filePath = [path stringByAppendingPathComponent:@"data2.txt"];
+        
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         
         NSTimeZone *timeZone = [NSTimeZone timeZoneWithName:@"US/Pacific"];
         
         [dateFormatter setTimeZone:timeZone];
         
-        [dateFormatter setDateFormat:@"[MMdd_HHmmss],"];
+        [dateFormatter setDateFormat:@"MM/dd/YYYY HH:mm:ss,"];
         
         NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
+        [dateFormatter setDateFormat:@"MMddyy"];
+        NSString *ddmmyyString = [dateFormatter stringFromDate:[NSDate date]];
+        
+        NSString *filePath = [path stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.csv",ddmmyyString]];
+        
+        _bufferString = (NSMutableString*)[_bufferString stringByReplacingOccurrencesOfString:@"\n" withString:@""];
+        _bufferString = (NSMutableString*)[_bufferString stringByReplacingOccurrencesOfString:@"F" withString:@""];
+        
         string = [NSMutableString stringWithFormat:@"%@%@%@%@",[NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&error],([string containsString:@"F"])?@"\n":@"",([string containsString:@"F"])?dateString:@"",_bufferString];
         
         [string writeToFile:filePath atomically:YES encoding:NSUTF8StringEncoding error:&error];
