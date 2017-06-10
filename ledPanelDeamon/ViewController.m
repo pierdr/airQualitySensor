@@ -105,7 +105,7 @@
         [_bufferString appendString:string];
         NSLog(@"%@",_bufferString);
         
-        NSString *path = [NSHomeDirectory() stringByAppendingPathComponent:@"tmp"]; //get tmp path
+        NSString *path = [NSHomeDirectory() stringByAppendingPathComponent:@"Dropbox"]; //get tmp path
         
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         
@@ -131,7 +131,10 @@
     }
     else
     {
-        [_bufferString appendString:string];
+        if(![string isEqualToString:@""] && ![string isEqualToString:@"\n`"])
+        {
+            [_bufferString appendString:string];
+        }
     }
 }
 
