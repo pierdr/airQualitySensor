@@ -1,19 +1,15 @@
 /*
- Sample code for Shinyei PPD42NS Particle Sensor. 
+ * Shinyei PPD42NS Particle Sensor.    
+ * 
+ * Sensor Pin 1 => Arduino GND   
+ * Sensor Pin 3 => Arduino +5VDC   
+ * Sensor Pin 4 => Arduino Digital Pin 3 
+ http://www.seeedstudio.com/depot/grove-dust-sensor-p-1050.html
  http://www.sca-shinyei.com/pdf/PPD42NS.pdf
- This code measures the concentration of particulate matter in air defined as:
-      particles per .01 cubic ft ( particles per 283 mL )
- Based on work by Chris Nafis http://www.howmuchsnow.com/arduino/airquality/grovedust/
-  
- Connections:
- 
-   Sensor Pin 1 => Arduino GND
-   Sensor Pin 3 => Arduino +5VDC
-   Sensor Pin 4 => Arduino Digital Pin 3
 */
 
-int pin = 8;
-// Sample time in milliseconds 30 seconds
+#define PPD42NS_PIN 8
+
 unsigned long sampletime_ms = 15000;
 unsigned long starttime;
 unsigned long duration = 0;
@@ -25,36 +21,48 @@ float concentration = 0;
 
 String output = "";
 
+/*
+ * GP2Y1010AU0F Dust Sensor.    
+ * 
+ * Sensor Pin 1 => Arduino GND   
+ * Sensor Pin 3 => Arduino +5VDC   
+ * Sensor Pin 4 => Arduino Digital Pin 3 
+ * http://www.waveshare.com  
+*/
+#define        COV_RATIO                       0.2            //ug/mmm / mv
+#define        NO_DUST_VOLTAGE                 400            //mv
+#define        SYS_VOLTAGE                     5000   
+
+#define GP2Y1010AU0F_ILED 7
+#define GP2Y1010AU0F_VOUT A1
+
+float density, voltage;
+int   adcvalue;
+
+/*
+ * LDR
+*/
+#define LIGHT_SENSOR A0
+
 void setup() {
   Serial.begin(115200);
-  pinMode(pin,INPUT);
-  // Get current time to measure sample time
-  starttime = millis();
-  //Serial.println("started");
+  initPPD42NS();
+  starttime = millis(); 
 }
 
 void loop() {
-  // Wait for low pulse and return pulse width duration. Time in micro seconds.
-  duration = duration + pulseIn(pin, LOW);
-  elapsedtime=millis()-starttime;
-  // If sampling time is reached (30 seconds) then calculate concentration.
+  updatePPD42NS();
   if (elapsedtime > sampletime_ms) {
-    ratio = duration/(elapsedtime*10.0);
-    // Equation derived from datasheet by Chris Nafis
-    concentration = 1.1*pow(ratio,3)-3.8*pow(ratio,2)+520*ratio+0.62;
-    timestamp=millis()/1000;
-    //Serial.print("Timestamp: ");
-    //Serial.print(timestamp);
-    //Serial.print("C");//concentration
-    output.concat(concentration);
-    output.concat(",");
-    output.concat(analogRead(A0));
-    output.concat("F");
-    //Serial.print(concentration);
-    Serial.println(output);// particles per .01 cu ft
-    // Reset values for next sampling period.
-    duration = 0;
-    output = "";
     starttime = millis();
+
+   output = "";
+   output.concat(getPPD42NS());
+   output.concat(",");
+   output.concat(getGP2Y1010AU0F());
+   output.concat(analogRead(LIGHT_SENSOR));
+   output.concat("F");
+   //Serial.print(concentration);
+   Serial.print(output);// particles per .01 cu ft
   }
+   
 }
