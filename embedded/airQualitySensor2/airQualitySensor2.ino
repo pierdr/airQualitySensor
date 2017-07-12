@@ -8,7 +8,7 @@
  http://www.sca-shinyei.com/pdf/PPD42NS.pdf
 */
 
-#define PPD42NS_PIN 8
+#define PPD42NS_PIN 6
 
 unsigned long sampletime_ms = 15000;
 unsigned long starttime;
@@ -24,9 +24,7 @@ String output = "";
 /*
  * GP2Y1010AU0F Dust Sensor.    
  * 
- * Sensor Pin 1 => Arduino GND   
- * Sensor Pin 3 => Arduino +5VDC   
- * Sensor Pin 4 => Arduino Digital Pin 3 
+ *
  * http://www.waveshare.com  
 */
 #define        COV_RATIO                       0.2            //ug/mmm / mv
