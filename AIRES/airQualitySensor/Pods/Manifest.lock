@@ -1,0 +1,20 @@
+PODS:
+  - CHCSVParser (2.1.0)
+  - ObjectiveDropboxOfficial (3.9.1)
+
+DEPENDENCIES:
+  - CHCSVParser
+  - ObjectiveDropboxOfficial
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CHCSVParser
+    - ObjectiveDropboxOfficial
+
+SPEC CHECKSUMS:
+  CHCSVParser: 3bcc7bdb72111a31222e95d57eacceefe4e537e8
+  ObjectiveDropboxOfficial: 274ce69d66286c94416daf1da5237c55e105e8c0
+
+PODFILE CHECKSUM: df9b63796adaf57e46962536a2fe9724a06bb958
+
+COCOAPODS: 1.5.3

@@ -14,17 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-airQualityDataDownloader.xcscheme</key>
+		<key>Pods-serialSave.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-airQualityDataDownloaderTests.xcscheme</key>
+		<key>Pods-serialSaveTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-airQualityDataDownloaderUITests.xcscheme</key>
+		<key>Pods-serialSaveUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,27 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>08641CA6AA8DBCF195E6E5B89D865641</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>20400FF3DA372102C2D5F15FA6DDA7C1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>56FC0D82D47DE68DB1C15188A4B7AD1D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>639942D5FB65F888FA5B4729CAF37877</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>7419BD1F6208928B0411C0ECDDB24B91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>98BA7276FE7DF6A511DDD86B8E2C1A9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FB6C039F2A0393CF12300BB227B93235</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD982542908674D84CF0C6FFE41DEEAF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

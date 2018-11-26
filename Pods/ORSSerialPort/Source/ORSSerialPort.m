@@ -300,7 +300,15 @@ static __strong NSMutableArray *allSerialPorts;
 		if (lengthRead>0)
 		{
 			NSData *readData = [NSData dataWithBytes:buf length:lengthRead];
-			if (readData != nil) [self receiveData:readData];
+            if (readData != nil){
+                @try{
+                    [self receiveData:readData];
+                }
+                @catch(NSException *e)
+                {
+                     NSLog(@"Exception: %@", e);
+                }
+            }
 		}
 	});
 	dispatch_source_set_cancel_handler(readPollSource, ^{ [self reallyClosePort]; });

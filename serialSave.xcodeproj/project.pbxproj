@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		30FB5C45172C71E8389C7B4D /* libPods-airQualityDataDownloaderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF496959278AD27B71075730 /* libPods-airQualityDataDownloaderUITests.a */; };
 		3AAB88962D14B1FAB2D0528B /* libPods-airQualityDataDownloaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0724620C8FE7E75850CD9264 /* libPods-airQualityDataDownloaderTests.a */; };
-		ACA78E9718B8BCD391A95921 /* libPods-airQualityDataDownloader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A3F671082E486ABD45C3BB /* libPods-airQualityDataDownloader.a */; };
+		8FA61CEDC88C34D32C91A8E3 /* libPods-serialSaveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1103670020EFF97A66A41A5C /* libPods-serialSaveTests.a */; };
+		98E04D37AD13750E629DBD24 /* libPods-serialSave.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B12861DE98DB835ABF0B14 /* libPods-serialSave.a */; };
 		B90FC2D01EA43A36008EAE97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2CF1EA43A36008EAE97 /* AppDelegate.m */; };
 		B90FC2D31EA43A36008EAE97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2D21EA43A36008EAE97 /* main.m */; };
 		B90FC2D61EA43A36008EAE97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2D51EA43A36008EAE97 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 		B90FC2DB1EA43A36008EAE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90FC2D91EA43A36008EAE97 /* Main.storyboard */; };
 		B90FC2E61EA43A36008EAE97 /* airQualityDataDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2E51EA43A36008EAE97 /* airQualityDataDownloaderTests.m */; };
 		B90FC2F11EA43A36008EAE97 /* airQualityDataDownloaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90FC2F01EA43A36008EAE97 /* airQualityDataDownloaderUITests.m */; };
+		B9B9B8CB1EF5CE9600805CAB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B9B9B8CA1EF5CE9600805CAB /* Credits.rtf */; };
+		BB4125C60CFFAEF88A541E8C /* libPods-serialSaveUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C19312AFDB3F878C4CA58893 /* libPods-serialSaveUITests.a */; };
 		C35B68A1FB5B11F2672BFB88 /* libPods-ledPanelDeamonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA443586E448B0A94FD6BA6D /* libPods-ledPanelDeamonUITests.a */; };
 		EC63A7C2CC917E0BE2B9DBEA /* libPods-ledPanelDeamonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BD0617D0440424F0EA73DD /* libPods-ledPanelDeamonTests.a */; };
 /* End PBXBuildFile section */
@@ -41,16 +44,21 @@
 /* Begin PBXFileReference section */
 		0724620C8FE7E75850CD9264 /* libPods-airQualityDataDownloaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-airQualityDataDownloaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0781D59E95B6EEDBF9CAE91C /* Pods-airQualityDataDownloaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airQualityDataDownloaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-airQualityDataDownloaderTests/Pods-airQualityDataDownloaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1103670020EFF97A66A41A5C /* libPods-serialSaveTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-serialSaveTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2432A9DC918D81D6FD9F242E /* Pods-serialSaveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-serialSaveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-serialSaveUITests/Pods-serialSaveUITests.release.xcconfig"; sourceTree = "<group>"; };
 		28FF8BEE3D50F45200856722 /* Pods-airQualityDataDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airQualityDataDownloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-airQualityDataDownloader/Pods-airQualityDataDownloader.release.xcconfig"; sourceTree = "<group>"; };
+		4C594C658CBA0824ADBEE505 /* Pods-serialSave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-serialSave.release.xcconfig"; path = "Pods/Target Support Files/Pods-serialSave/Pods-serialSave.release.xcconfig"; sourceTree = "<group>"; };
 		4CACBD35B2E96DA70576A8EF /* Pods-airQualityDataDownloaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airQualityDataDownloaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-airQualityDataDownloaderTests/Pods-airQualityDataDownloaderTests.release.xcconfig"; sourceTree = "<group>"; };
 		661DDA271B35022DC751FAAB /* Pods-ledPanelDeamonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamonUITests/Pods-ledPanelDeamonUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7A2F8C841F9C674D6E14710D /* Pods-ledPanelDeamonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamonTests/Pods-ledPanelDeamonTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B1C3AC837A740FC0ABBAA47 /* Pods-serialSaveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-serialSaveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-serialSaveTests/Pods-serialSaveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DBD84FE7CDB1656E32754D0 /* Pods-serialSaveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-serialSaveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-serialSaveUITests/Pods-serialSaveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A8A3F671082E486ABD45C3BB /* libPods-airQualityDataDownloader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-airQualityDataDownloader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5C603A2FED9A725B571B2D /* Pods-ledPanelDeamon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamon/Pods-ledPanelDeamon.debug.xcconfig"; sourceTree = "<group>"; };
 		B1BA1E6A36E56FC3A17E1FC6 /* Pods-airQualityDataDownloaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airQualityDataDownloaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-airQualityDataDownloaderUITests/Pods-airQualityDataDownloaderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B1C8C2D765BE6416ACA25F00 /* Pods-ledPanelDeamon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamon.release.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamon/Pods-ledPanelDeamon.release.xcconfig"; sourceTree = "<group>"; };
 		B363CD58DCE445C50683672E /* libPods-ledPanelDeamon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ledPanelDeamon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B90FC2CB1EA43A36008EAE97 /* airQualityDataDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airQualityDataDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90FC2CB1EA43A36008EAE97 /* serialSave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = serialSave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90FC2CE1EA43A36008EAE97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B90FC2CF1EA43A36008EAE97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B90FC2D21EA43A36008EAE97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,18 +67,24 @@
 		B90FC2D71EA43A36008EAE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B90FC2DA1EA43A36008EAE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B90FC2DC1EA43A36008EAE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B90FC2E11EA43A36008EAE97 /* airQualityDataDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airQualityDataDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90FC2E11EA43A36008EAE97 /* serialSaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = serialSaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90FC2E51EA43A36008EAE97 /* airQualityDataDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = airQualityDataDownloaderTests.m; sourceTree = "<group>"; };
 		B90FC2E71EA43A36008EAE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B90FC2EC1EA43A36008EAE97 /* airQualityDataDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airQualityDataDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90FC2EC1EA43A36008EAE97 /* serialSaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = serialSaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90FC2F01EA43A36008EAE97 /* airQualityDataDownloaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = airQualityDataDownloaderUITests.m; sourceTree = "<group>"; };
 		B90FC2F21EA43A36008EAE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B9B8CA1EF5CE9600805CAB /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		B9C1CDAB1EF5B16200408F45 /* serialSave.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = serialSave.entitlements; sourceTree = "<group>"; };
 		BA443586E448B0A94FD6BA6D /* libPods-ledPanelDeamonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ledPanelDeamonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19312AFDB3F878C4CA58893 /* libPods-serialSaveUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-serialSaveUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C655EB8A48D76C66AD4B95F6 /* Pods-airQualityDataDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airQualityDataDownloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-airQualityDataDownloader/Pods-airQualityDataDownloader.debug.xcconfig"; sourceTree = "<group>"; };
+		D403CAF1F30A4384F0505FD1 /* Pods-serialSaveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-serialSaveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-serialSaveTests/Pods-serialSaveTests.release.xcconfig"; sourceTree = "<group>"; };
 		D6BD0617D0440424F0EA73DD /* libPods-ledPanelDeamonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ledPanelDeamonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7325B85D040A26F60350C3B /* Pods-ledPanelDeamonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamonTests/Pods-ledPanelDeamonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF496959278AD27B71075730 /* libPods-airQualityDataDownloaderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-airQualityDataDownloaderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B12861DE98DB835ABF0B14 /* libPods-serialSave.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-serialSave.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA43621550C039CD0E76F380 /* Pods-airQualityDataDownloaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airQualityDataDownloaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-airQualityDataDownloaderUITests/Pods-airQualityDataDownloaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB19C19AC99A9E59E01F69B4 /* Pods-serialSave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-serialSave.debug.xcconfig"; path = "Pods/Target Support Files/Pods-serialSave/Pods-serialSave.debug.xcconfig"; sourceTree = "<group>"; };
 		FC88A45A3DEC635C632A5E12 /* Pods-ledPanelDeamonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledPanelDeamonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ledPanelDeamonUITests/Pods-ledPanelDeamonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACA78E9718B8BCD391A95921 /* libPods-airQualityDataDownloader.a in Frameworks */,
+				98E04D37AD13750E629DBD24 /* libPods-serialSave.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +103,7 @@
 			files = (
 				EC63A7C2CC917E0BE2B9DBEA /* libPods-ledPanelDeamonTests.a in Frameworks */,
 				3AAB88962D14B1FAB2D0528B /* libPods-airQualityDataDownloaderTests.a in Frameworks */,
+				8FA61CEDC88C34D32C91A8E3 /* libPods-serialSaveTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +113,7 @@
 			files = (
 				C35B68A1FB5B11F2672BFB88 /* libPods-ledPanelDeamonUITests.a in Frameworks */,
 				30FB5C45172C71E8389C7B4D /* libPods-airQualityDataDownloaderUITests.a in Frameworks */,
+				BB4125C60CFFAEF88A541E8C /* libPods-serialSaveUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +135,12 @@
 				4CACBD35B2E96DA70576A8EF /* Pods-airQualityDataDownloaderTests.release.xcconfig */,
 				FA43621550C039CD0E76F380 /* Pods-airQualityDataDownloaderUITests.debug.xcconfig */,
 				B1BA1E6A36E56FC3A17E1FC6 /* Pods-airQualityDataDownloaderUITests.release.xcconfig */,
+				FB19C19AC99A9E59E01F69B4 /* Pods-serialSave.debug.xcconfig */,
+				4C594C658CBA0824ADBEE505 /* Pods-serialSave.release.xcconfig */,
+				7B1C3AC837A740FC0ABBAA47 /* Pods-serialSaveTests.debug.xcconfig */,
+				D403CAF1F30A4384F0505FD1 /* Pods-serialSaveTests.release.xcconfig */,
+				7DBD84FE7CDB1656E32754D0 /* Pods-serialSaveUITests.debug.xcconfig */,
+				2432A9DC918D81D6FD9F242E /* Pods-serialSaveUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -126,6 +148,7 @@
 		B90FC2C21EA43A36008EAE97 = {
 			isa = PBXGroup;
 			children = (
+				B9C1CDAB1EF5B16200408F45 /* serialSave.entitlements */,
 				B90FC2CD1EA43A36008EAE97 /* airQualityDataDownloader */,
 				B90FC2E41EA43A36008EAE97 /* airQualityDataDownloaderTests */,
 				B90FC2EF1EA43A36008EAE97 /* airQualityDataDownloaderUITests */,
@@ -138,9 +161,9 @@
 		B90FC2CC1EA43A36008EAE97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B90FC2CB1EA43A36008EAE97 /* airQualityDataDownloader.app */,
-				B90FC2E11EA43A36008EAE97 /* airQualityDataDownloaderTests.xctest */,
-				B90FC2EC1EA43A36008EAE97 /* airQualityDataDownloaderUITests.xctest */,
+				B90FC2CB1EA43A36008EAE97 /* serialSave.app */,
+				B90FC2E11EA43A36008EAE97 /* serialSaveTests.xctest */,
+				B90FC2EC1EA43A36008EAE97 /* serialSaveUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +177,7 @@
 				B90FC2D51EA43A36008EAE97 /* ViewController.m */,
 				B90FC2D71EA43A36008EAE97 /* Assets.xcassets */,
 				B90FC2D91EA43A36008EAE97 /* Main.storyboard */,
+				B9B9B8CA1EF5CE9600805CAB /* Credits.rtf */,
 				B90FC2DC1EA43A36008EAE97 /* Info.plist */,
 				B90FC2D11EA43A36008EAE97 /* Supporting Files */,
 			);
@@ -198,6 +222,9 @@
 				A8A3F671082E486ABD45C3BB /* libPods-airQualityDataDownloader.a */,
 				0724620C8FE7E75850CD9264 /* libPods-airQualityDataDownloaderTests.a */,
 				EF496959278AD27B71075730 /* libPods-airQualityDataDownloaderUITests.a */,
+				F7B12861DE98DB835ABF0B14 /* libPods-serialSave.a */,
+				1103670020EFF97A66A41A5C /* libPods-serialSaveTests.a */,
+				C19312AFDB3F878C4CA58893 /* libPods-serialSaveUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -205,9 +232,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B90FC2CA1EA43A36008EAE97 /* airQualityDataDownloader */ = {
+		B90FC2CA1EA43A36008EAE97 /* serialSave */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B90FC2F51EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "airQualityDataDownloader" */;
+			buildConfigurationList = B90FC2F51EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "serialSave" */;
 			buildPhases = (
 				04E78A39F739A6F02CBA3274 /* [CP] Check Pods Manifest.lock */,
 				B90FC2C71EA43A36008EAE97 /* Sources */,
@@ -220,14 +247,14 @@
 			);
 			dependencies = (
 			);
-			name = airQualityDataDownloader;
+			name = serialSave;
 			productName = ledPanelDeamon;
-			productReference = B90FC2CB1EA43A36008EAE97 /* airQualityDataDownloader.app */;
+			productReference = B90FC2CB1EA43A36008EAE97 /* serialSave.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B90FC2E01EA43A36008EAE97 /* airQualityDataDownloaderTests */ = {
+		B90FC2E01EA43A36008EAE97 /* serialSaveTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B90FC2F81EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "airQualityDataDownloaderTests" */;
+			buildConfigurationList = B90FC2F81EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "serialSaveTests" */;
 			buildPhases = (
 				A0D523CADA115B31F66003E5 /* [CP] Check Pods Manifest.lock */,
 				B90FC2DD1EA43A36008EAE97 /* Sources */,
@@ -241,14 +268,14 @@
 			dependencies = (
 				B90FC2E31EA43A36008EAE97 /* PBXTargetDependency */,
 			);
-			name = airQualityDataDownloaderTests;
+			name = serialSaveTests;
 			productName = ledPanelDeamonTests;
-			productReference = B90FC2E11EA43A36008EAE97 /* airQualityDataDownloaderTests.xctest */;
+			productReference = B90FC2E11EA43A36008EAE97 /* serialSaveTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B90FC2EB1EA43A36008EAE97 /* airQualityDataDownloaderUITests */ = {
+		B90FC2EB1EA43A36008EAE97 /* serialSaveUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B90FC2FB1EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "airQualityDataDownloaderUITests" */;
+			buildConfigurationList = B90FC2FB1EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "serialSaveUITests" */;
 			buildPhases = (
 				8489BD0CEAC1F5E12CFF7646 /* [CP] Check Pods Manifest.lock */,
 				B90FC2E81EA43A36008EAE97 /* Sources */,
@@ -262,9 +289,9 @@
 			dependencies = (
 				B90FC2EE1EA43A36008EAE97 /* PBXTargetDependency */,
 			);
-			name = airQualityDataDownloaderUITests;
+			name = serialSaveUITests;
 			productName = ledPanelDeamonUITests;
-			productReference = B90FC2EC1EA43A36008EAE97 /* airQualityDataDownloaderUITests.xctest */;
+			productReference = B90FC2EC1EA43A36008EAE97 /* serialSaveUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -280,6 +307,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 5AQYUURPL7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					B90FC2E01EA43A36008EAE97 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -295,7 +327,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B90FC2C61EA43A36008EAE97 /* Build configuration list for PBXProject "airQualityDataDownloader" */;
+			buildConfigurationList = B90FC2C61EA43A36008EAE97 /* Build configuration list for PBXProject "serialSave" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -308,9 +340,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B90FC2CA1EA43A36008EAE97 /* airQualityDataDownloader */,
-				B90FC2E01EA43A36008EAE97 /* airQualityDataDownloaderTests */,
-				B90FC2EB1EA43A36008EAE97 /* airQualityDataDownloaderUITests */,
+				B90FC2CA1EA43A36008EAE97 /* serialSave */,
+				B90FC2E01EA43A36008EAE97 /* serialSaveTests */,
+				B90FC2EB1EA43A36008EAE97 /* serialSaveUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -321,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B90FC2D81EA43A36008EAE97 /* Assets.xcassets in Resources */,
+				B9B9B8CB1EF5CE9600805CAB /* Credits.rtf in Resources */,
 				B90FC2DB1EA43A36008EAE97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,7 +387,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-airQualityDataDownloaderUITests/Pods-airQualityDataDownloaderUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-serialSaveUITests/Pods-serialSaveUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		04E78A39F739A6F02CBA3274 /* [CP] Check Pods Manifest.lock */ = {
@@ -384,7 +417,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-airQualityDataDownloaderUITests/Pods-airQualityDataDownloaderUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-serialSaveUITests/Pods-serialSaveUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8489BD0CEAC1F5E12CFF7646 /* [CP] Check Pods Manifest.lock */ = {
@@ -414,7 +447,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-airQualityDataDownloaderTests/Pods-airQualityDataDownloaderTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-serialSaveTests/Pods-serialSaveTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A0D523CADA115B31F66003E5 /* [CP] Check Pods Manifest.lock */ = {
@@ -444,7 +477,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-airQualityDataDownloaderTests/Pods-airQualityDataDownloaderTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-serialSaveTests/Pods-serialSaveTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D73051915C4548D612B17919 /* [CP] Copy Pods Resources */ = {
@@ -459,7 +492,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-airQualityDataDownloader/Pods-airQualityDataDownloader-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-serialSave/Pods-serialSave-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DE8E89F7A0965071F2815897 /* [CP] Embed Pods Frameworks */ = {
@@ -474,7 +507,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-airQualityDataDownloader/Pods-airQualityDataDownloader-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-serialSave/Pods-serialSave-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -511,12 +544,12 @@
 /* Begin PBXTargetDependency section */
 		B90FC2E31EA43A36008EAE97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B90FC2CA1EA43A36008EAE97 /* airQualityDataDownloader */;
+			target = B90FC2CA1EA43A36008EAE97 /* serialSave */;
 			targetProxy = B90FC2E21EA43A36008EAE97 /* PBXContainerItemProxy */;
 		};
 		B90FC2EE1EA43A36008EAE97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B90FC2CA1EA43A36008EAE97 /* airQualityDataDownloader */;
+			target = B90FC2CA1EA43A36008EAE97 /* serialSave */;
 			targetProxy = B90FC2ED1EA43A36008EAE97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -622,35 +655,41 @@
 		};
 		B90FC2F61EA43A36008EAE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C655EB8A48D76C66AD4B95F6 /* Pods-airQualityDataDownloader.debug.xcconfig */;
+			baseConfigurationReference = FB19C19AC99A9E59E01F69B4 /* Pods-serialSave.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = serialSave.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5AQYUURPL7;
 				INFOPLIST_FILE = ledPanelDeamon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.airQualityDownloader;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.serialSave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		B90FC2F71EA43A36008EAE97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28FF8BEE3D50F45200856722 /* Pods-airQualityDataDownloader.release.xcconfig */;
+			baseConfigurationReference = 4C594C658CBA0824ADBEE505 /* Pods-serialSave.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = serialSave.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5AQYUURPL7;
 				INFOPLIST_FILE = ledPanelDeamon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.airQualityDownloader;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.serialSave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		B90FC2F91EA43A36008EAE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0781D59E95B6EEDBF9CAE91C /* Pods-airQualityDataDownloaderTests.debug.xcconfig */;
+			baseConfigurationReference = 7B1C3AC837A740FC0ABBAA47 /* Pods-serialSaveTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -659,13 +698,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.ledPanelDeamonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airQualityDataDownloader.app/Contents/MacOS/airQualityDataDownloader";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/serialSave.app/Contents/MacOS/serialSave";
 			};
 			name = Debug;
 		};
 		B90FC2FA1EA43A36008EAE97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CACBD35B2E96DA70576A8EF /* Pods-airQualityDataDownloaderTests.release.xcconfig */;
+			baseConfigurationReference = D403CAF1F30A4384F0505FD1 /* Pods-serialSaveTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -674,13 +713,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pierdr.ledPanelDeamonTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airQualityDataDownloader.app/Contents/MacOS/airQualityDataDownloader";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/serialSave.app/Contents/MacOS/serialSave";
 			};
 			name = Release;
 		};
 		B90FC2FC1EA43A36008EAE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA43621550C039CD0E76F380 /* Pods-airQualityDataDownloaderUITests.debug.xcconfig */;
+			baseConfigurationReference = 7DBD84FE7CDB1656E32754D0 /* Pods-serialSaveUITests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5AQYUURPL7;
@@ -694,7 +733,7 @@
 		};
 		B90FC2FD1EA43A36008EAE97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1BA1E6A36E56FC3A17E1FC6 /* Pods-airQualityDataDownloaderUITests.release.xcconfig */;
+			baseConfigurationReference = 2432A9DC918D81D6FD9F242E /* Pods-serialSaveUITests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5AQYUURPL7;
@@ -709,7 +748,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B90FC2C61EA43A36008EAE97 /* Build configuration list for PBXProject "airQualityDataDownloader" */ = {
+		B90FC2C61EA43A36008EAE97 /* Build configuration list for PBXProject "serialSave" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90FC2F31EA43A36008EAE97 /* Debug */,
@@ -718,7 +757,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B90FC2F51EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "airQualityDataDownloader" */ = {
+		B90FC2F51EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "serialSave" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90FC2F61EA43A36008EAE97 /* Debug */,
@@ -727,7 +766,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B90FC2F81EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "airQualityDataDownloaderTests" */ = {
+		B90FC2F81EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "serialSaveTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90FC2F91EA43A36008EAE97 /* Debug */,
@@ -736,7 +775,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B90FC2FB1EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "airQualityDataDownloaderUITests" */ = {
+		B90FC2FB1EA43A36008EAE97 /* Build configuration list for PBXNativeTarget "serialSaveUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B90FC2FC1EA43A36008EAE97 /* Debug */,

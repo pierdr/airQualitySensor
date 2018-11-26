@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01E810AEBFEF395532B9EDF1DA91AF8E /* Pods-airQualityDataDownloaderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD6196B2BBCF86B79D934FC8B8DEF09 /* Pods-airQualityDataDownloaderTests-dummy.m */; };
-		069FE359087BF0D69F7B7413B7D1998F /* Pods-airQualityDataDownloader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BADB6E5A757ABE06EE28B6E86367313B /* Pods-airQualityDataDownloader-dummy.m */; };
 		0B5A5756413E3D5125B6673CEB21AEF2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93F203030ACECCE1CC9D378462D301C /* IOKit.framework */; };
 		0CECD99BB1B98CA5917728A56813E4A8 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A59C4D9728EC2B4E5675C1B6113E819 /* ORSSerialBuffer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		10EC410E81D8D5A2AD3CEC1E42AD2B93 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */; };
 		1581CD5B254BCF8A339D196B9AE6F1F7 /* PSWebSocketInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD1A7E49687313C8D3EA1C463B44FB5 /* PSWebSocketInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		16835B96FE7E7CFF51D10D2CA59C4F19 /* PSWebSocketDeflater.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D143B7B960B4DCE155DEC32F51C8BE6 /* PSWebSocketDeflater.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		20294F48A3160F2288293885C50DF376 /* PSWebSocketUTF8Decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E52780E82D35DC0F507082F73682FA /* PSWebSocketUTF8Decoder.m */; };
@@ -28,38 +27,39 @@
 		524C506A9A8F3708084ED387619A8351 /* PSWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9C596335EE6445BE69EB11CE441234 /* PSWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		540C6ED6C8A3E397AE4E5EACBFDC845C /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5982ABCCD0F564352A6AAF1B08118AAD /* ORSSerialPacketDescriptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6A49D3AD21569EF7305CA08E8EDB8CC1 /* PSWebSocketDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7389C6F8F396849AA3095DFA595EBB55 /* PSWebSocketDriver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DF329EAC92B3D0A52C68C8603FD4F7E /* Pods-serialSaveUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5272BC9689222473702E51DAF6457 /* Pods-serialSaveUITests-dummy.m */; };
 		80CB191A6B0938BE94CB167AD448EA84 /* PSWebSocketNetworkThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B55E09B72AD23010E028E95CCBC569 /* PSWebSocketNetworkThread.m */; };
+		877E51241D93777A1D18BAC7C63CD351 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */; };
 		89DF61BA984DC98529ABF2E5ACBC70D8 /* PSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DE945CD59E42D82D056017287F802611 /* PSWebSocket.m */; };
 		912DA540CED5BEF18EF40F9A0FEA760F /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70311500EA22E7549456DF5D7CEA7512 /* ORSSerialPortManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		94A793235E721EA076B55A067F60A25C /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EDA0193023A32D4CE10EA182DE3DFB /* ORSSerialRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		967B57E9D15C4F92ECBE5DCF14325906 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */; };
+		967397D68C58E4ACA85FE434ECED21A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */; };
 		96D5146E7A558F2AA71CF2C4E6FE3A3A /* PSWebSocketTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 747962508A3F233655AC6C8C3E0EF913 /* PSWebSocketTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9732D315E08B03892760637E9A6805EA /* PSWebSocketInflater.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AA9DCCF5B0DBFB0EBCB290B09F31ED /* PSWebSocketInflater.m */; };
-		9BA2B8C99578D7B0D6142D7FC23EAF3A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */; };
 		9D7FB4C9F0273F308127342455571D0C /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 006FF73843FA3553471690FA961C70A2 /* ORSSerialPort.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A2C2EA76CA86DD08F1AAA386ADC49106 /* ORSSerialPacketDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5DC81FD696EA6A3885011C39DA44FA /* ORSSerialPacketDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABFD0F8FD93CAEE149FE37D354567584 /* ORSSerialRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B485D91B817D0FF90720B3CAB4CE4C94 /* ORSSerialRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B536693F9F7677176A13674B0F9BD7A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061D675E652C198EEE5EC0DF4458FEDD /* Foundation.framework */; };
+		B715E58407A81D4D1BD324FDC56C8683 /* Pods-serialSaveTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E67A66D35C91C0EBD89B45052BC8B90 /* Pods-serialSaveTests-dummy.m */; };
+		BBA9BCF2B8A7EACA2E0E8CD7B1A186C7 /* Pods-serialSave-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA39DFCBDCC6DA1F9DAD25CD2461C95C /* Pods-serialSave-dummy.m */; };
 		BD29A9C9AAA5480C2F0E9FA47347FF1D /* ORSSerialPortManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C55D1AB3F7442E6B7DF088F8E8C395B8 /* ORSSerialPortManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3541104E2696131C3044769A786C339 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */; };
 		D94255D948AC6BF92648FF22A0C3C873 /* PSWebSocketNetworkThread.h in Headers */ = {isa = PBXBuildFile; fileRef = B72B2B8BB66B5AEA3EB9D08F95EECF05 /* PSWebSocketNetworkThread.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E1A2389B3FA4E093859DF2C2268053DD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */; };
 		E4EDB920A855305CDFF0282850983BBE /* PSWebSocketDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = B7275CA422CEE495E19D5CE5DD162B45 /* PSWebSocketDriver.m */; };
-		E96DD41610BC76DA91D123ABDE74AC39 /* Pods-airQualityDataDownloaderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E29E6EE2AADF18738ED86F557A03744 /* Pods-airQualityDataDownloaderUITests-dummy.m */; };
 		EA7957222A49376CFE5EC3943D1A457F /* ORSSerialBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA3CC33573C7F5F10056CD748ECF0B2 /* ORSSerialBuffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		ECA1818FCF07425028236FFDA2C1E60F /* ORSSerialPort.h in Headers */ = {isa = PBXBuildFile; fileRef = A1DA2C11B3D4AF5A47A1F21CA679FD40 /* ORSSerialPort.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5CCA322F7D07BFC7666BDC9277015BC /* PSWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F89AFA73D57ABAE1A63FA9C1701E0BD3 /* PSWebSocketServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F4C083344A9F7FFDCCE81C14AF14636 /* PBXContainerItemProxy */ = {
+		5B58451EA7193AA18D1C52866D303217 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7419BD1F6208928B0411C0ECDDB24B91;
 			remoteInfo = ORSSerialPort;
 		};
-		CF34783D018CDDC2A016D025CA07876E /* PBXContainerItemProxy */ = {
+		EED9EB9D9673444082896CEFADF659BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -71,86 +71,86 @@
 /* Begin PBXFileReference section */
 		006FF73843FA3553471690FA961C70A2 /* ORSSerialPort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPort.m; path = Source/ORSSerialPort.m; sourceTree = "<group>"; };
 		061D675E652C198EEE5EC0DF4458FEDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		06B518D92CF7F8D9301A0E13E4945B8E /* libPods-airQualityDataDownloader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-airQualityDataDownloader.a"; path = "libPods-airQualityDataDownloader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D143B7B960B4DCE155DEC32F51C8BE6 /* PSWebSocketDeflater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketDeflater.h; path = PocketSocket/PSWebSocketDeflater.h; sourceTree = "<group>"; };
 		0DFCFD3851C402A35B01EB4FFBA618CF /* PSWebSocketDeflater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketDeflater.m; path = PocketSocket/PSWebSocketDeflater.m; sourceTree = "<group>"; };
-		0E29E6EE2AADF18738ED86F557A03744 /* Pods-airQualityDataDownloaderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-airQualityDataDownloaderUITests-dummy.m"; sourceTree = "<group>"; };
 		1506DE0D73F1654D363293E1E929839A /* ORSSerialPort-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORSSerialPort-dummy.m"; sourceTree = "<group>"; };
-		151AA545F59FAE59FA4980AD5BBFF08E /* Pods-airQualityDataDownloaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-airQualityDataDownloaderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		15CE8DA9C9158CD5E2C05A6DEA84C0B1 /* ORSSerialPort.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORSSerialPort.xcconfig; sourceTree = "<group>"; };
 		16EDA0193023A32D4CE10EA182DE3DFB /* ORSSerialRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialRequest.m; path = Source/ORSSerialRequest.m; sourceTree = "<group>"; };
-		21F126EF4F7B274E30B2107B3A4C2962 /* Pods-airQualityDataDownloaderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-airQualityDataDownloaderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		22A849F9C92C753171445EF693677036 /* Pods-airQualityDataDownloaderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-airQualityDataDownloaderTests-resources.sh"; sourceTree = "<group>"; };
-		289F8BA30213B3CEF0BC11C9CA96972D /* Pods-airQualityDataDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-airQualityDataDownloader.debug.xcconfig"; sourceTree = "<group>"; };
-		2E029E4912B59379B89256764172C2CE /* Pods-airQualityDataDownloader-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-airQualityDataDownloader-frameworks.sh"; sourceTree = "<group>"; };
+		19A06E9EB3F87E3187926BCF845C2C3E /* libPocketSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPocketSocket.a; path = libPocketSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAEA7309B130CDCC524B40989ECE392 /* Pods-serialSave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-serialSave.debug.xcconfig"; sourceTree = "<group>"; };
+		1BE5272BC9689222473702E51DAF6457 /* Pods-serialSaveUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-serialSaveUITests-dummy.m"; sourceTree = "<group>"; };
+		2AB1FDB2BD6AEA2A7B27BF21E30EA4A4 /* libPods-serialSave.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-serialSave.a"; path = "libPods-serialSave.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		300595D6BE5A3D415722A11817BDD0FF /* Pods-serialSaveTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-serialSaveTests-resources.sh"; sourceTree = "<group>"; };
+		3249BDA849A1BA9365C2F4B5EC3E8179 /* Pods-serialSave-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-serialSave-resources.sh"; sourceTree = "<group>"; };
+		39BFDD421ABE8A351DC5AEEB9D896AE5 /* libPods-serialSaveUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-serialSaveUITests.a"; path = "libPods-serialSaveUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE954E09E4C7B5DBF762E49B9EFC30E /* PocketSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PocketSocket-prefix.pch"; sourceTree = "<group>"; };
-		430CAF674FD2719DD7203E806C590E8C /* Pods-airQualityDataDownloaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-airQualityDataDownloaderTests.release.xcconfig"; sourceTree = "<group>"; };
-		49DC8B92F1B2C9227ABD855828A07112 /* Pods-airQualityDataDownloader-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-airQualityDataDownloader-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E6CFDD11545802D8B488967B5E125C7 /* Pods-serialSaveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-serialSaveTests.debug.xcconfig"; sourceTree = "<group>"; };
 		49F5184FE471F3D529E979748E282EE2 /* PocketSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PocketSocket.xcconfig; sourceTree = "<group>"; };
-		4D1E86F1FFDFFD1AEB6DFB41892A7A4F /* Pods-airQualityDataDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-airQualityDataDownloader.release.xcconfig"; sourceTree = "<group>"; };
 		4D83B830FFF344316A2B530AFFC3D274 /* PSWebSocketInflater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketInflater.h; path = PocketSocket/PSWebSocketInflater.h; sourceTree = "<group>"; };
-		4DC645CB1CED33B49CBA11614C142E47 /* Pods-airQualityDataDownloaderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-airQualityDataDownloaderTests-frameworks.sh"; sourceTree = "<group>"; };
+		4E67A66D35C91C0EBD89B45052BC8B90 /* Pods-serialSaveTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-serialSaveTests-dummy.m"; sourceTree = "<group>"; };
 		5982ABCCD0F564352A6AAF1B08118AAD /* ORSSerialPacketDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPacketDescriptor.m; path = Source/ORSSerialPacketDescriptor.m; sourceTree = "<group>"; };
 		5DD1A7E49687313C8D3EA1C463B44FB5 /* PSWebSocketInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketInternal.h; path = PocketSocket/PSWebSocketInternal.h; sourceTree = "<group>"; };
 		5DF63DDFA740E9F31F079764A7F6BC07 /* ORSSerialPort-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORSSerialPort-prefix.pch"; sourceTree = "<group>"; };
-		619B6197670470AAF7716CB512FFA97D /* libPocketSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPocketSocket.a; path = libPocketSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		631EC820BE4C40F8E122AE27447F23B8 /* Pods-airQualityDataDownloader-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-airQualityDataDownloader-resources.sh"; sourceTree = "<group>"; };
-		6C863E1E613366BB9C5174B0349D9649 /* libPods-airQualityDataDownloaderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-airQualityDataDownloaderUITests.a"; path = "libPods-airQualityDataDownloaderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8F3BCDBCA6A41A5C89B78E06377217 /* Pods-serialSave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-serialSave.release.xcconfig"; sourceTree = "<group>"; };
 		70311500EA22E7549456DF5D7CEA7512 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPortManager.m; path = Source/ORSSerialPortManager.m; sourceTree = "<group>"; };
+		734FAE84C52C113DD65555280CBC931F /* Pods-serialSaveTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-serialSaveTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7389C6F8F396849AA3095DFA595EBB55 /* PSWebSocketDriver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketDriver.h; path = PocketSocket/PSWebSocketDriver.h; sourceTree = "<group>"; };
 		747962508A3F233655AC6C8C3E0EF913 /* PSWebSocketTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketTypes.h; path = PocketSocket/PSWebSocketTypes.h; sourceTree = "<group>"; };
 		7A9C596335EE6445BE69EB11CE441234 /* PSWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocket.h; path = PocketSocket/PSWebSocket.h; sourceTree = "<group>"; };
-		7B5305267DDE62A5ADD148886B703445 /* Pods-airQualityDataDownloaderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-airQualityDataDownloaderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		81B55E09B72AD23010E028E95CCBC569 /* PSWebSocketNetworkThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketNetworkThread.m; path = PocketSocket/PSWebSocketNetworkThread.m; sourceTree = "<group>"; };
-		85416B05952F8494B183D3FC270CD8D4 /* Pods-airQualityDataDownloaderUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-airQualityDataDownloaderUITests-resources.sh"; sourceTree = "<group>"; };
-		8BD6196B2BBCF86B79D934FC8B8DEF09 /* Pods-airQualityDataDownloaderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-airQualityDataDownloaderTests-dummy.m"; sourceTree = "<group>"; };
+		9322CB94EFE958EA01A93F98302AAAF5 /* Pods-serialSaveTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-serialSaveTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		934D836B3F850C6A102E754AC1A31C0C /* Pods-serialSaveUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-serialSaveUITests-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A59C4D9728EC2B4E5675C1B6113E819 /* ORSSerialBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialBuffer.m; path = Source/ORSSerialBuffer.m; sourceTree = "<group>"; };
-		9B12FF2A8213E27304C1886413768AD6 /* Pods-airQualityDataDownloaderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-airQualityDataDownloaderUITests-frameworks.sh"; sourceTree = "<group>"; };
-		9B6196BA91C002C3BD216D30D715D2D2 /* Pods-airQualityDataDownloaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-airQualityDataDownloaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C67E36DEF5D0A81A3591B17485A9A6F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		9D6475A718B0EA120C1AC710216319F7 /* PocketSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PocketSocket-dummy.m"; sourceTree = "<group>"; };
 		A1DA2C11B3D4AF5A47A1F21CA679FD40 /* ORSSerialPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPort.h; path = Source/ORSSerialPort.h; sourceTree = "<group>"; };
+		A5402356A01B6E18A52FFFCC03387FDA /* Pods-serialSave-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-serialSave-frameworks.sh"; sourceTree = "<group>"; };
 		A561A212D0B0DF0B596B26ABD4F7B01E /* PSWebSocketServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketServer.h; path = PocketSocket/PSWebSocketServer.h; sourceTree = "<group>"; };
 		A95C832AA1F1806A9477C7BFDC1ECEA6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		A9740DBFBA0E93D11CC7F2E2024F63A3 /* Pods-serialSaveUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-serialSaveUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AAD61AB2CB930B8A09B0CDDB08511F31 /* PSWebSocketBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketBuffer.m; path = PocketSocket/PSWebSocketBuffer.m; sourceTree = "<group>"; };
-		B3B815331039712A64C2CDD576DC5CD4 /* Pods-airQualityDataDownloaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-airQualityDataDownloaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AAF411A49862A6346EB8E558E180DE4B /* Pods-serialSaveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-serialSaveTests.release.xcconfig"; sourceTree = "<group>"; };
 		B485D91B817D0FF90720B3CAB4CE4C94 /* ORSSerialRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialRequest.h; path = Source/ORSSerialRequest.h; sourceTree = "<group>"; };
 		B7275CA422CEE495E19D5CE5DD162B45 /* PSWebSocketDriver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketDriver.m; path = PocketSocket/PSWebSocketDriver.m; sourceTree = "<group>"; };
 		B72B2B8BB66B5AEA3EB9D08F95EECF05 /* PSWebSocketNetworkThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketNetworkThread.h; path = PocketSocket/PSWebSocketNetworkThread.h; sourceTree = "<group>"; };
-		BADB6E5A757ABE06EE28B6E86367313B /* Pods-airQualityDataDownloader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-airQualityDataDownloader-dummy.m"; sourceTree = "<group>"; };
-		BC1DD0D28C2C14853DB1FBE7E786E08D /* Pods-airQualityDataDownloader-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-airQualityDataDownloader-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE434B0D45734F6855EA1BB0E6D1BD09 /* Pods-serialSaveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-serialSaveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C55D1AB3F7442E6B7DF088F8E8C395B8 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPortManager.h; path = Source/ORSSerialPortManager.h; sourceTree = "<group>"; };
-		CE0C281C09B36487C5E22262693EA69F /* libORSSerialPort.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libORSSerialPort.a; path = libORSSerialPort.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF741FD4407327A0FA5E7C2C4EFD1C41 /* Pods-airQualityDataDownloaderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-airQualityDataDownloaderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D1121B29D50B40D8B2D75D5046ED2775 /* Pods-airQualityDataDownloaderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-airQualityDataDownloaderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5A49A521847616CC8ED55665B65CC53 /* Pods-serialSaveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-serialSaveUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D187D406F096C0D49EEA3D87524BDD5E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		D58FBA7EFB09BC1E59F0D4B1A85EF0CE /* libPods-serialSaveTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-serialSaveTests.a"; path = "libPods-serialSaveTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7545808F8A6D2412B8E9495D005DC13 /* Pods-serialSaveUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-serialSaveUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DE945CD59E42D82D056017287F802611 /* PSWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocket.m; path = PocketSocket/PSWebSocket.m; sourceTree = "<group>"; };
-		E4DE6D5B64427105A2DF7912D2793B15 /* libPods-airQualityDataDownloaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-airQualityDataDownloaderTests.a"; path = "libPods-airQualityDataDownloaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CD83B861052D0E636E59ADCF67C155 /* Pods-serialSave-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-serialSave-acknowledgements.plist"; sourceTree = "<group>"; };
+		E79936B754C3C740E277DE11D70A9B19 /* Pods-serialSaveUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-serialSaveUITests-resources.sh"; sourceTree = "<group>"; };
 		E93F203030ACECCE1CC9D378462D301C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		EBFB44BBA27C3149D0CE2D06C5073616 /* libORSSerialPort.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libORSSerialPort.a; path = libORSSerialPort.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA3CC33573C7F5F10056CD748ECF0B2 /* ORSSerialBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialBuffer.h; path = Source/ORSSerialBuffer.h; sourceTree = "<group>"; };
 		EF5DC81FD696EA6A3885011C39DA44FA /* ORSSerialPacketDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPacketDescriptor.h; path = Source/ORSSerialPacketDescriptor.h; sourceTree = "<group>"; };
+		F1D7B54FCC2362B9DB300D680E24813E /* Pods-serialSave-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-serialSave-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F4B3C63AF99F72DA0AFEF8DECD0D6726 /* PSWebSocketUTF8Decoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketUTF8Decoder.h; path = PocketSocket/PSWebSocketUTF8Decoder.h; sourceTree = "<group>"; };
 		F50583709160AA8304B7956E225108C9 /* PSWebSocketBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketBuffer.h; path = PocketSocket/PSWebSocketBuffer.h; sourceTree = "<group>"; };
 		F5AA9DCCF5B0DBFB0EBCB290B09F31ED /* PSWebSocketInflater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketInflater.m; path = PocketSocket/PSWebSocketInflater.m; sourceTree = "<group>"; };
 		F6E52780E82D35DC0F507082F73682FA /* PSWebSocketUTF8Decoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketUTF8Decoder.m; path = PocketSocket/PSWebSocketUTF8Decoder.m; sourceTree = "<group>"; };
 		F89AFA73D57ABAE1A63FA9C1701E0BD3 /* PSWebSocketServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketServer.m; path = PocketSocket/PSWebSocketServer.m; sourceTree = "<group>"; };
+		FA39DFCBDCC6DA1F9DAD25CD2461C95C /* Pods-serialSave-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-serialSave-dummy.m"; sourceTree = "<group>"; };
+		FA5BD6C51C4C022C257FD17C54F2981C /* Pods-serialSaveTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-serialSaveTests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D610663DBB0F2C8331E0A3C931D653D /* Frameworks */ = {
+		2A54257307095046C5F6967C171C3315 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA2B8C99578D7B0D6142D7FC23EAF3A /* Cocoa.framework in Frameworks */,
+				10EC410E81D8D5A2AD3CEC1E42AD2B93 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AD637CD7B2EFC47DD6BF0639C8CE836 /* Frameworks */ = {
+		2C1E07A813908754177D1F6D19FB6BD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3541104E2696131C3044769A786C339 /* Cocoa.framework in Frameworks */,
+				967397D68C58E4ACA85FE434ECED21A5 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,11 +174,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1CCFEA3CE150FB2F3A920E60B051889 /* Frameworks */ = {
+		A6410A98582359931281271D48CAB108 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				967B57E9D15C4F92ECBE5DCF14325906 /* Cocoa.framework in Frameworks */,
+				877E51241D93777A1D18BAC7C63CD351 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,14 +193,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		197BEE8106F53D3DF9ECEE60DA9B5591 /* Targets Support Files */ = {
+		24E0B36CA673F6275E6EFB4C172A27B4 /* Pods-serialSaveTests */ = {
 			isa = PBXGroup;
 			children = (
-				B1FF3BDA86FEBA48D9694E7116692686 /* Pods-airQualityDataDownloader */,
-				9BE53E319FBFE5B23B376087E122E38E /* Pods-airQualityDataDownloaderTests */,
-				CB226078956AB66638E48ACDC9DD4299 /* Pods-airQualityDataDownloaderUITests */,
+				9322CB94EFE958EA01A93F98302AAAF5 /* Pods-serialSaveTests-acknowledgements.markdown */,
+				734FAE84C52C113DD65555280CBC931F /* Pods-serialSaveTests-acknowledgements.plist */,
+				4E67A66D35C91C0EBD89B45052BC8B90 /* Pods-serialSaveTests-dummy.m */,
+				FA5BD6C51C4C022C257FD17C54F2981C /* Pods-serialSaveTests-frameworks.sh */,
+				300595D6BE5A3D415722A11817BDD0FF /* Pods-serialSaveTests-resources.sh */,
+				3E6CFDD11545802D8B488967B5E125C7 /* Pods-serialSaveTests.debug.xcconfig */,
+				AAF411A49862A6346EB8E558E180DE4B /* Pods-serialSaveTests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-serialSaveTests";
+			path = "Target Support Files/Pods-serialSaveTests";
 			sourceTree = "<group>";
 		};
 		282B6E9EBBA0F9B3866A55905A3FC82D /* OS X */ = {
@@ -236,6 +241,21 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ORSSerialPort";
+			sourceTree = "<group>";
+		};
+		42F8D26A1C927297F1D593E7F4ED95BB /* Pods-serialSaveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9740DBFBA0E93D11CC7F2E2024F63A3 /* Pods-serialSaveUITests-acknowledgements.markdown */,
+				D7545808F8A6D2412B8E9495D005DC13 /* Pods-serialSaveUITests-acknowledgements.plist */,
+				1BE5272BC9689222473702E51DAF6457 /* Pods-serialSaveUITests-dummy.m */,
+				934D836B3F850C6A102E754AC1A31C0C /* Pods-serialSaveUITests-frameworks.sh */,
+				E79936B754C3C740E277DE11D70A9B19 /* Pods-serialSaveUITests-resources.sh */,
+				BE434B0D45734F6855EA1BB0E6D1BD09 /* Pods-serialSaveUITests.debug.xcconfig */,
+				C5A49A521847616CC8ED55665B65CC53 /* Pods-serialSaveUITests.release.xcconfig */,
+			);
+			name = "Pods-serialSaveUITests";
+			path = "Target Support Files/Pods-serialSaveUITests";
 			sourceTree = "<group>";
 		};
 		56EF338C632C4FB1EDF237DE84D95DB3 /* Pods */ = {
@@ -292,9 +312,21 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				178A06EC2705B46FE1BB38A02AAC7BBC /* Frameworks */,
 				56EF338C632C4FB1EDF237DE84D95DB3 /* Pods */,
-				A8090A4800A281B06D9845C456595220 /* Products */,
-				197BEE8106F53D3DF9ECEE60DA9B5591 /* Targets Support Files */,
+				89EC7CDF8CCAED2A4F43F607364A9FFA /* Products */,
+				A3864938A0E6F532DD97048B2B8DCF5B /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		89EC7CDF8CCAED2A4F43F607364A9FFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB44BBA27C3149D0CE2D06C5073616 /* libORSSerialPort.a */,
+				19A06E9EB3F87E3187926BCF845C2C3E /* libPocketSocket.a */,
+				2AB1FDB2BD6AEA2A7B27BF21E30EA4A4 /* libPods-serialSave.a */,
+				D58FBA7EFB09BC1E59F0D4B1A85EF0CE /* libPods-serialSaveTests.a */,
+				39BFDD421ABE8A351DC5AEEB9D896AE5 /* libPods-serialSaveUITests.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		992279D0E263923F509A04EF904CCBC6 /* ORSSerialPort */ = {
@@ -316,21 +348,6 @@
 			path = ORSSerialPort;
 			sourceTree = "<group>";
 		};
-		9BE53E319FBFE5B23B376087E122E38E /* Pods-airQualityDataDownloaderTests */ = {
-			isa = PBXGroup;
-			children = (
-				7B5305267DDE62A5ADD148886B703445 /* Pods-airQualityDataDownloaderTests-acknowledgements.markdown */,
-				D1121B29D50B40D8B2D75D5046ED2775 /* Pods-airQualityDataDownloaderTests-acknowledgements.plist */,
-				8BD6196B2BBCF86B79D934FC8B8DEF09 /* Pods-airQualityDataDownloaderTests-dummy.m */,
-				4DC645CB1CED33B49CBA11614C142E47 /* Pods-airQualityDataDownloaderTests-frameworks.sh */,
-				22A849F9C92C753171445EF693677036 /* Pods-airQualityDataDownloaderTests-resources.sh */,
-				151AA545F59FAE59FA4980AD5BBFF08E /* Pods-airQualityDataDownloaderTests.debug.xcconfig */,
-				430CAF674FD2719DD7203E806C590E8C /* Pods-airQualityDataDownloaderTests.release.xcconfig */,
-			);
-			name = "Pods-airQualityDataDownloaderTests";
-			path = "Target Support Files/Pods-airQualityDataDownloaderTests";
-			sourceTree = "<group>";
-		};
 		A24F3963A58F8AEC499BC1196C8F3DB7 /* Client */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,46 +359,29 @@
 			name = Client;
 			sourceTree = "<group>";
 		};
-		A8090A4800A281B06D9845C456595220 /* Products */ = {
+		A3864938A0E6F532DD97048B2B8DCF5B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE0C281C09B36487C5E22262693EA69F /* libORSSerialPort.a */,
-				619B6197670470AAF7716CB512FFA97D /* libPocketSocket.a */,
-				06B518D92CF7F8D9301A0E13E4945B8E /* libPods-airQualityDataDownloader.a */,
-				E4DE6D5B64427105A2DF7912D2793B15 /* libPods-airQualityDataDownloaderTests.a */,
-				6C863E1E613366BB9C5174B0349D9649 /* libPods-airQualityDataDownloaderUITests.a */,
+				D522BA6CF6902D3EFBE68483F46DFC18 /* Pods-serialSave */,
+				24E0B36CA673F6275E6EFB4C172A27B4 /* Pods-serialSaveTests */,
+				42F8D26A1C927297F1D593E7F4ED95BB /* Pods-serialSaveUITests */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B1FF3BDA86FEBA48D9694E7116692686 /* Pods-airQualityDataDownloader */ = {
+		D522BA6CF6902D3EFBE68483F46DFC18 /* Pods-serialSave */ = {
 			isa = PBXGroup;
 			children = (
-				BC1DD0D28C2C14853DB1FBE7E786E08D /* Pods-airQualityDataDownloader-acknowledgements.markdown */,
-				49DC8B92F1B2C9227ABD855828A07112 /* Pods-airQualityDataDownloader-acknowledgements.plist */,
-				BADB6E5A757ABE06EE28B6E86367313B /* Pods-airQualityDataDownloader-dummy.m */,
-				2E029E4912B59379B89256764172C2CE /* Pods-airQualityDataDownloader-frameworks.sh */,
-				631EC820BE4C40F8E122AE27447F23B8 /* Pods-airQualityDataDownloader-resources.sh */,
-				289F8BA30213B3CEF0BC11C9CA96972D /* Pods-airQualityDataDownloader.debug.xcconfig */,
-				4D1E86F1FFDFFD1AEB6DFB41892A7A4F /* Pods-airQualityDataDownloader.release.xcconfig */,
+				F1D7B54FCC2362B9DB300D680E24813E /* Pods-serialSave-acknowledgements.markdown */,
+				E4CD83B861052D0E636E59ADCF67C155 /* Pods-serialSave-acknowledgements.plist */,
+				FA39DFCBDCC6DA1F9DAD25CD2461C95C /* Pods-serialSave-dummy.m */,
+				A5402356A01B6E18A52FFFCC03387FDA /* Pods-serialSave-frameworks.sh */,
+				3249BDA849A1BA9365C2F4B5EC3E8179 /* Pods-serialSave-resources.sh */,
+				1AAEA7309B130CDCC524B40989ECE392 /* Pods-serialSave.debug.xcconfig */,
+				6A8F3BCDBCA6A41A5C89B78E06377217 /* Pods-serialSave.release.xcconfig */,
 			);
-			name = "Pods-airQualityDataDownloader";
-			path = "Target Support Files/Pods-airQualityDataDownloader";
-			sourceTree = "<group>";
-		};
-		CB226078956AB66638E48ACDC9DD4299 /* Pods-airQualityDataDownloaderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				21F126EF4F7B274E30B2107B3A4C2962 /* Pods-airQualityDataDownloaderUITests-acknowledgements.markdown */,
-				CF741FD4407327A0FA5E7C2C4EFD1C41 /* Pods-airQualityDataDownloaderUITests-acknowledgements.plist */,
-				0E29E6EE2AADF18738ED86F557A03744 /* Pods-airQualityDataDownloaderUITests-dummy.m */,
-				9B12FF2A8213E27304C1886413768AD6 /* Pods-airQualityDataDownloaderUITests-frameworks.sh */,
-				85416B05952F8494B183D3FC270CD8D4 /* Pods-airQualityDataDownloaderUITests-resources.sh */,
-				9B6196BA91C002C3BD216D30D715D2D2 /* Pods-airQualityDataDownloaderUITests.debug.xcconfig */,
-				B3B815331039712A64C2CDD576DC5CD4 /* Pods-airQualityDataDownloaderUITests.release.xcconfig */,
-			);
-			name = "Pods-airQualityDataDownloaderUITests";
-			path = "Target Support Files/Pods-airQualityDataDownloaderUITests";
+			name = "Pods-serialSave";
+			path = "Target Support Files/Pods-serialSave";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,24 +419,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		08641CA6AA8DBCF195E6E5B89D865641 /* Pods-airQualityDataDownloader */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6B2C3CA5703096242028CF024A2DE0B /* Build configuration list for PBXNativeTarget "Pods-airQualityDataDownloader" */;
-			buildPhases = (
-				18CCEA16A86004E5B64D0EA7CB5069BE /* Sources */,
-				2AD637CD7B2EFC47DD6BF0639C8CE836 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8FC0B845C8E71B9AF2C6946CAD9A358B /* PBXTargetDependency */,
-				CE0639679D9DB303E7295282222631E8 /* PBXTargetDependency */,
-			);
-			name = "Pods-airQualityDataDownloader";
-			productName = "Pods-airQualityDataDownloader";
-			productReference = 06B518D92CF7F8D9301A0E13E4945B8E /* libPods-airQualityDataDownloader.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		20400FF3DA372102C2D5F15FA6DDA7C1 /* PocketSocket */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AED46970CE2AFE70A809D3DF58003C8 /* Build configuration list for PBXNativeTarget "PocketSocket" */;
@@ -451,39 +433,7 @@
 			);
 			name = PocketSocket;
 			productName = PocketSocket;
-			productReference = 619B6197670470AAF7716CB512FFA97D /* libPocketSocket.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		56FC0D82D47DE68DB1C15188A4B7AD1D /* Pods-airQualityDataDownloaderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DC5A5620294E4C2B3397DFD04C9ED3CD /* Build configuration list for PBXNativeTarget "Pods-airQualityDataDownloaderTests" */;
-			buildPhases = (
-				443B4614691B6340CFDCE1CAD11EB754 /* Sources */,
-				B1CCFEA3CE150FB2F3A920E60B051889 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-airQualityDataDownloaderTests";
-			productName = "Pods-airQualityDataDownloaderTests";
-			productReference = E4DE6D5B64427105A2DF7912D2793B15 /* libPods-airQualityDataDownloaderTests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		639942D5FB65F888FA5B4729CAF37877 /* Pods-airQualityDataDownloaderUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5C58AAB0514605E41CD6F9A981135B0A /* Build configuration list for PBXNativeTarget "Pods-airQualityDataDownloaderUITests" */;
-			buildPhases = (
-				A46D2BAD3F56E4EA9281F7720CDC960A /* Sources */,
-				1D610663DBB0F2C8331E0A3C931D653D /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-airQualityDataDownloaderUITests";
-			productName = "Pods-airQualityDataDownloaderUITests";
-			productReference = 6C863E1E613366BB9C5174B0349D9649 /* libPods-airQualityDataDownloaderUITests.a */;
+			productReference = 19A06E9EB3F87E3187926BCF845C2C3E /* libPocketSocket.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		7419BD1F6208928B0411C0ECDDB24B91 /* ORSSerialPort */ = {
@@ -500,7 +450,57 @@
 			);
 			name = ORSSerialPort;
 			productName = ORSSerialPort;
-			productReference = CE0C281C09B36487C5E22262693EA69F /* libORSSerialPort.a */;
+			productReference = EBFB44BBA27C3149D0CE2D06C5073616 /* libORSSerialPort.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		98BA7276FE7DF6A511DDD86B8E2C1A9D /* Pods-serialSaveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F4E2E33FC008F12437CA1BFE4C9A65 /* Build configuration list for PBXNativeTarget "Pods-serialSaveUITests" */;
+			buildPhases = (
+				2EC44BBD5FC66A7DECB77EA372E6E6F0 /* Sources */,
+				A6410A98582359931281271D48CAB108 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-serialSaveUITests";
+			productName = "Pods-serialSaveUITests";
+			productReference = 39BFDD421ABE8A351DC5AEEB9D896AE5 /* libPods-serialSaveUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FB6C039F2A0393CF12300BB227B93235 /* Pods-serialSave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8397ED19BABE43FFA410F9556C18C63F /* Build configuration list for PBXNativeTarget "Pods-serialSave" */;
+			buildPhases = (
+				F8F87C8B1B80E8716AAC43993D94875E /* Sources */,
+				2A54257307095046C5F6967C171C3315 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656BA37E051BB8FF214C13DFE2FEA05F /* PBXTargetDependency */,
+				30B515B8BDB70A536DFB9EFCFED157E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-serialSave";
+			productName = "Pods-serialSave";
+			productReference = 2AB1FDB2BD6AEA2A7B27BF21E30EA4A4 /* libPods-serialSave.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD982542908674D84CF0C6FFE41DEEAF /* Pods-serialSaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA2D64D90C32F69C09220321BBF6048 /* Build configuration list for PBXNativeTarget "Pods-serialSaveTests" */;
+			buildPhases = (
+				7C23A3FDFD2E51D0927E3516C8860074 /* Sources */,
+				2C1E07A813908754177D1F6D19FB6BD1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-serialSaveTests";
+			productName = "Pods-serialSaveTests";
+			productReference = D58FBA7EFB09BC1E59F0D4B1A85EF0CE /* libPods-serialSaveTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -520,25 +520,25 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A8090A4800A281B06D9845C456595220 /* Products */;
+			productRefGroup = 89EC7CDF8CCAED2A4F43F607364A9FFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				7419BD1F6208928B0411C0ECDDB24B91 /* ORSSerialPort */,
 				20400FF3DA372102C2D5F15FA6DDA7C1 /* PocketSocket */,
-				08641CA6AA8DBCF195E6E5B89D865641 /* Pods-airQualityDataDownloader */,
-				56FC0D82D47DE68DB1C15188A4B7AD1D /* Pods-airQualityDataDownloaderTests */,
-				639942D5FB65F888FA5B4729CAF37877 /* Pods-airQualityDataDownloaderUITests */,
+				FB6C039F2A0393CF12300BB227B93235 /* Pods-serialSave */,
+				FD982542908674D84CF0C6FFE41DEEAF /* Pods-serialSaveTests */,
+				98BA7276FE7DF6A511DDD86B8E2C1A9D /* Pods-serialSaveUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18CCEA16A86004E5B64D0EA7CB5069BE /* Sources */ = {
+		2EC44BBD5FC66A7DECB77EA372E6E6F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				069FE359087BF0D69F7B7413B7D1998F /* Pods-airQualityDataDownloader-dummy.m in Sources */,
+				7DF329EAC92B3D0A52C68C8603FD4F7E /* Pods-serialSaveUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,19 +558,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		443B4614691B6340CFDCE1CAD11EB754 /* Sources */ = {
+		7C23A3FDFD2E51D0927E3516C8860074 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01E810AEBFEF395532B9EDF1DA91AF8E /* Pods-airQualityDataDownloaderTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A46D2BAD3F56E4EA9281F7720CDC960A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E96DD41610BC76DA91D123ABDE74AC39 /* Pods-airQualityDataDownloaderUITests-dummy.m in Sources */,
+				B715E58407A81D4D1BD324FDC56C8683 /* Pods-serialSaveTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,39 +579,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8F87C8B1B80E8716AAC43993D94875E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA9BCF2B8A7EACA2E0E8CD7B1A186C7 /* Pods-serialSave-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8FC0B845C8E71B9AF2C6946CAD9A358B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ORSSerialPort;
-			target = 7419BD1F6208928B0411C0ECDDB24B91 /* ORSSerialPort */;
-			targetProxy = 3F4C083344A9F7FFDCCE81C14AF14636 /* PBXContainerItemProxy */;
-		};
-		CE0639679D9DB303E7295282222631E8 /* PBXTargetDependency */ = {
+		30B515B8BDB70A536DFB9EFCFED157E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PocketSocket;
 			target = 20400FF3DA372102C2D5F15FA6DDA7C1 /* PocketSocket */;
-			targetProxy = CF34783D018CDDC2A016D025CA07876E /* PBXContainerItemProxy */;
+			targetProxy = EED9EB9D9673444082896CEFADF659BE /* PBXContainerItemProxy */;
+		};
+		656BA37E051BB8FF214C13DFE2FEA05F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ORSSerialPort;
+			target = 7419BD1F6208928B0411C0ECDDB24B91 /* ORSSerialPort */;
+			targetProxy = 5B58451EA7193AA18D1C52866D303217 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		118A4C7745066259FFADC5039A1459FD /* Release */ = {
+		487BEAB96C808AA3044663D0074D5C65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3B815331039712A64C2CDD576DC5CD4 /* Pods-airQualityDataDownloaderUITests.release.xcconfig */;
+			baseConfigurationReference = 1AAEA7309B130CDCC524B40989ECE392 /* Pods-serialSave.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
 				GCC_NO_COMMON_BLOCKS = YES;
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -628,32 +628,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
-		};
-		3B5EE4813C1896F1E7E3AD80B5C431CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D1E86F1FFDFFD1AEB6DFB41892A7A4F /* Pods-airQualityDataDownloader.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
+			name = Debug;
 		};
 		5D622BA00757EC20ADAD24C580904C04 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -767,6 +742,56 @@
 			};
 			name = Debug;
 		};
+		778B3C20F1E7EB91F6F59531AB70D4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A49A521847616CC8ED55665B65CC53 /* Pods-serialSaveUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7E8A833CB711A81D1F94ECD716233B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E6CFDD11545802D8B488967B5E125C7 /* Pods-serialSaveTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		AB74B5E09B30AE94F1D9671501EA01E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -811,9 +836,9 @@
 			};
 			name = Debug;
 		};
-		CB8F3ADFBA187ACD33825244553D3045 /* Release */ = {
+		C49C4CE475BD71F5E63E23D9E3C912EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 430CAF674FD2719DD7203E806C590E8C /* Pods-airQualityDataDownloaderTests.release.xcconfig */;
+			baseConfigurationReference = AAF411A49862A6346EB8E558E180DE4B /* Pods-serialSaveTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -836,9 +861,34 @@
 			};
 			name = Release;
 		};
-		DADF30B656D0C39A93D513B4EBB84B5B /* Debug */ = {
+		CEF55534AFD61EDA86B450D62349A334 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 289F8BA30213B3CEF0BC11C9CA96972D /* Pods-airQualityDataDownloader.debug.xcconfig */;
+			baseConfigurationReference = 6A8F3BCDBCA6A41A5C89B78E06377217 /* Pods-serialSave.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D3734741D24D1F7E4894826BFA1EF77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE434B0D45734F6855EA1BB0E6D1BD09 /* Pods-serialSaveUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -885,56 +935,6 @@
 			};
 			name = Release;
 		};
-		EF3B08CBB11C8F32C2320B153FA2E883 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 151AA545F59FAE59FA4980AD5BBFF08E /* Pods-airQualityDataDownloaderTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		F0AF71FB26DD64CB5CBD8F136889C53B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B6196BA91C002C3BD216D30D715D2D2 /* Pods-airQualityDataDownloaderUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -965,29 +965,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C58AAB0514605E41CD6F9A981135B0A /* Build configuration list for PBXNativeTarget "Pods-airQualityDataDownloaderUITests" */ = {
+		6DA2D64D90C32F69C09220321BBF6048 /* Build configuration list for PBXNativeTarget "Pods-serialSaveTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0AF71FB26DD64CB5CBD8F136889C53B /* Debug */,
-				118A4C7745066259FFADC5039A1459FD /* Release */,
+				7E8A833CB711A81D1F94ECD716233B6A /* Debug */,
+				C49C4CE475BD71F5E63E23D9E3C912EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6B2C3CA5703096242028CF024A2DE0B /* Build configuration list for PBXNativeTarget "Pods-airQualityDataDownloader" */ = {
+		8397ED19BABE43FFA410F9556C18C63F /* Build configuration list for PBXNativeTarget "Pods-serialSave" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DADF30B656D0C39A93D513B4EBB84B5B /* Debug */,
-				3B5EE4813C1896F1E7E3AD80B5C431CA /* Release */,
+				487BEAB96C808AA3044663D0074D5C65 /* Debug */,
+				CEF55534AFD61EDA86B450D62349A334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC5A5620294E4C2B3397DFD04C9ED3CD /* Build configuration list for PBXNativeTarget "Pods-airQualityDataDownloaderTests" */ = {
+		A1F4E2E33FC008F12437CA1BFE4C9A65 /* Build configuration list for PBXNativeTarget "Pods-serialSaveUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF3B08CBB11C8F32C2320B153FA2E883 /* Debug */,
-				CB8F3ADFBA187ACD33825244553D3045 /* Release */,
+				D3734741D24D1F7E4894826BFA1EF77B /* Debug */,
+				778B3C20F1E7EB91F6F59531AB70D4AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

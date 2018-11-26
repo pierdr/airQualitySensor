@@ -17,9 +17,13 @@ DerivedData/
 !default.perspectivev3
 xcuserdata/
 
+**/.DS_Store
+.DS_Store
 ## Other
 *.moved-aside
 *.xcuserstate
+AIRES/_media/
+**/_media
 
 ## Obj-C/Swift specific
 *.hmap

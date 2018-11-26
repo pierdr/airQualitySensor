@@ -1,4 +1,19 @@
 /*
+ * PMS5003    
+ * 
+ * Sensor Pin 1 => Arduino +5V   
+ * Sensor Pin 2 => Arduino GND   
+ * Sensor Pin 4 => Arduino Digital Pin 8 (3.3v)
+ * Sensor Pin 5 => Arduino Digital Pin 9 (3.3v) 
+*/
+
+#include <pms.h>
+
+Pms5003 pms;
+auto lastRead = millis();
+String workingStringPMS5003 = "";
+
+/*
  * Shinyei PPD42NS Particle Sensor.    
  * 
  * Sensor Pin 1 => Arduino GND   
@@ -8,7 +23,7 @@
  http://www.sca-shinyei.com/pdf/PPD42NS.pdf
 */
 
-#define PPD42NS_PIN 6
+#define PPD42NS_PIN 5
 
 unsigned long sampletime_ms = 15000;
 unsigned long starttime;
@@ -45,19 +60,24 @@ int   adcvalue;
 void setup() {
   Serial.begin(115200);
   initPPD42NS();
+  initPMS5003();
   starttime = millis(); 
 }
 
 void loop() {
   updatePPD42NS();
+  updatePMS5003();
+  
   if (elapsedtime > sampletime_ms) {
     starttime = millis();
 
    output = "";
-   output.concat(getPPD42NS());
-   output.concat(",");
-   output.concat(getGP2Y1010AU0F());
+//   output.concat(getPPD42NS());
+//   output.concat(",");
+//   output.concat(getGP2Y1010AU0F());
+//   output.concat(",");
    output.concat(analogRead(LIGHT_SENSOR));
+   output.concat(workingStringPMS5003);
    output.concat("F");
    //Serial.print(concentration);
    Serial.print(output);// particles per .01 cu ft
