@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self updateData];
-    //NSLog(@"IPHONE %f,%f",[UIScreen mainScreen].bounds.size.width,[UIScreen mainScreen].bounds.size.height);
+    
     UIImage* bg;
     if([UIScreen mainScreen].bounds.size.width<=320)
     {
@@ -145,13 +145,8 @@
   //  NSLog(@"%lu", (unsigned long)[[self lines] count]);
     
    // NSLog(@"value: %@,%d", [[self lines] objectAtIndex:[[self lines] count]-1][0],[[[self lines] objectAtIndex:[[self lines] count]-1][1] intValue]);
-    _PPM2_5 = [[[self lines] objectAtIndex:[[self lines] count]-1][1] intValue];
-               _timeStamp = [[self lines] objectAtIndex:[[self lines] count]-1][0];
-    dispatch_async(dispatch_get_main_queue(), ^{
-//        [self->_valueLabel setText:[[self lines] objectAtIndex:[[self lines] count]-1][1]];
-//        [self->_timeStampLabel setText:[[self lines] objectAtIndex:[[self lines] count]-1][0]];
-        [self updateUI];
-    });
+    
+    
     
 }
 -(void)updateUI{
@@ -190,6 +185,13 @@
 }
 - (void)parserDidEndDocument:(CHCSVParser *)parser {
     //    NSLog(@"parser ended: %@", csvFile);
+    _PPM2_5 = [[[self lines] objectAtIndex:[[self lines] count]-1][1] intValue];
+    _timeStamp = [[self lines] objectAtIndex:[[self lines] count]-1][0];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        //        [self->_valueLabel setText:[[self lines] objectAtIndex:[[self lines] count]-1][1]];
+        //        [self->_timeStampLabel setText:[[self lines] objectAtIndex:[[self lines] count]-1][0]];
+        [self updateUI];
+    });
 }
 - (void)parser:(CHCSVParser *)parser didFailWithError:(NSError *)error {
     NSLog(@"ERROR: %@", error);

@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
-        <capability name="box content view" minToolsVersion="7.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -163,13 +162,16 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="serialSave" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="serialSave" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="240" height="320"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <value key="minSize" type="size" width="240" height="320"/>
                         <value key="maxSize" type="size" width="240" height="320"/>
+                        <connections>
+                            <outlet property="delegate" destination="B8D-0N-5wS" id="ecf-mu-9uz"/>
+                        </connections>
                     </window>
                     <connections>
                         <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
@@ -195,10 +197,10 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="RJY-dN-7Vu">
-                                            <rect key="frame" x="0.0" y="247" width="240" height="5"/>
+                                            <rect key="frame" x="0.0" y="181" width="240" height="5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         </box>
-                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YdE-MB-U4X">
+                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YdE-MB-U4X">
                                             <rect key="frame" x="18" y="272" width="204" height="28"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Waiting for microcontroller." id="v9F-lT-7up">
@@ -208,11 +210,11 @@
                                             </textFieldCell>
                                         </textField>
                                         <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="WQb-Ty-FBe">
-                                            <rect key="frame" x="0.0" y="210" width="240" height="5"/>
+                                            <rect key="frame" x="0.0" y="144" width="240" height="5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         </box>
                                         <pathControl verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ItK-8c-ESx">
-                                            <rect key="frame" x="98" y="217" width="125" height="26"/>
+                                            <rect key="frame" x="109" y="151" width="125" height="26"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <pathCell key="cell" selectable="YES" editable="YES" alignment="left" pathStyle="popUp" id="1ew-PY-5AX">
                                                 <font key="font" metaFont="system" size="10"/>
@@ -220,19 +222,42 @@
                                                 <color key="backgroundColor" red="0.80784313725490198" green="0.80784313725490198" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
                                             </pathCell>
                                         </pathControl>
-                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5lU-N5-dFh">
-                                            <rect key="frame" x="18" y="208" width="90" height="28"/>
+                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="viU-SO-20G">
+                                            <rect key="frame" x="18" y="100" width="204" height="28"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Save location:" id="IVp-iU-vIg">
+                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="- -" id="kwd-0D-ZFH">
                                                 <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" red="0.55288776179999999" green="0.55288776179999999" blue="0.55288776179999999" alpha="0.94300199470000001" colorSpace="calibratedRGB"/>
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="viU-SO-20G">
-                                            <rect key="frame" x="18" y="166" width="204" height="28"/>
+                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cwr-d1-g1s">
+                                            <rect key="frame" x="12" y="186" width="103" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="- -" id="kwd-0D-ZFH">
+                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Ending sequence:" id="9uD-BF-3xc">
+                                                <font key="font" metaFont="smallSystem"/>
+                                                <color key="textColor" red="0.55288776179999999" green="0.55288776179999999" blue="0.55288776179999999" alpha="0.94300199470000001" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <popUpButton fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jh7-GE-Kqm">
+                                            <rect key="frame" x="110" y="190" width="123" height="25"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <popUpButtonCell key="cell" type="check" title="Return '\n'" bezelStyle="regularSquare" imagePosition="left" lineBreakMode="truncatingTail" borderStyle="bezel" inset="2" selectedItem="Dfj-IY-lLh" id="oFF-DJ-ydt">
+                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                <font key="font" size="10" name=".AppleSystemUIFont"/>
+                                                <menu key="menu" id="jdo-9Z-0Xf">
+                                                    <items>
+                                                        <menuItem title="Return '\n'" id="Dfj-IY-lLh"/>
+                                                        <menuItem title="Custom ..." state="on" id="DRH-hn-wLb"/>
+                                                    </items>
+                                                </menu>
+                                            </popUpButtonCell>
+                                        </popUpButton>
+                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5lU-N5-dFh">
+                                            <rect key="frame" x="12" y="143" width="103" height="28"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Save location:" id="IVp-iU-vIg">
                                                 <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" red="0.55288776179999999" green="0.55288776179999999" blue="0.55288776179999999" alpha="0.94300199470000001" colorSpace="calibratedRGB"/>
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -241,6 +266,7 @@
                                     </subviews>
                                 </view>
                                 <color key="fillColor" red="0.80538285339790572" green="0.80538285339790572" blue="0.80538285339790572" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="titleFont" metaFont="message" size="11"/>
                             </box>
                         </subviews>
                     </view>

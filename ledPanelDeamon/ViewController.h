@@ -48,20 +48,20 @@
 
 
 
--(void)disconnect:(id)sender;
--(void)setAutoConnect:(BOOL)autoconnect;
--(IBAction)changeBaudRate:(id)sender;
--(void)setBaud:(int)baudIndex;
--(void)setPortName:(NSString*)portAddress;
+- (void)disconnect:(id)sender;
+- (void)setAutoConnect:(BOOL)autoconnect;
+- (IBAction)changeBaudRate:(id)sender;
+- (void)setBaud:(int)baudIndex;
+- (void)setPortName:(NSString*)portAddress;
 
--(void)setSerialPortSelectedInMenu:(int)tag;
--(void)connectSerialPort;
--(void)serialPortWasRemovedFromSystem:(ORSSerialPort *)serialPort;
+- (void)setSerialPortSelectedInMenu:(int)tag;
+- (void)connectSerialPort;
+- (void)serialPortWasRemovedFromSystem:(ORSSerialPort *)serialPort;
 - (void)serialPortWasOpened:(ORSSerialPort *)serialPort;
 - (void)serialPortWasClosed:(ORSSerialPort *)serialPort;
--(void) setupSerial:(int) address withBaud:(int) baud;
--(NSArray*)availablePorts;
--(void)send:(NSString*)message;
+- (void) setupSerial:(int) address withBaud:(int) baud;
+- (NSArray*)availablePorts;
+- (void)send:(NSString*)message;
 - (void)serialPort:(ORSSerialPort *)serialPort didReceiveData:(NSData *)data;
 
 
